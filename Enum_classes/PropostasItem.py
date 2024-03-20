@@ -5,7 +5,7 @@ from typing import Optional, List
 
 class PropostasItem(Item):
     def __init__(self,
-            propostasItem: List[PropostaFornecedor],
+            propostasItem: Optional[List[PropostaFornecedor]] = None,
             prazosFaseRecursal: Optional[dict] = None,
             qtdeAceitaSrp: Optional[int] = None,
             qtdeAdjudicadaSrp: Optional[int] = None,
