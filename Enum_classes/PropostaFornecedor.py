@@ -4,7 +4,7 @@ from Enum_classes.Valores import Valores
 
 class PropostaFornecedor(Enum):
     def __init__(self,
-            valores: dict, # OK <- mudar
+            valores: dict,
             participante: dict, 
             declaracaoMeEpp: bool, 
             canalChatAberto: bool, 
