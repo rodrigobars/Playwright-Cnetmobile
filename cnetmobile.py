@@ -14,7 +14,6 @@ class CnetMobile:
     enum: Dict[str, Any] = field(default_factory=dict)
     itens: List[Dict[str, Any]] = field(default_factory=list)
     propostas: List[Dict[str, Any]] = field(default_factory=list)
-    grupo: List[Dict[str, Any]] = field(default_factory=list)
     compra_collected: bool = False
     enum_collected: bool = False
     
@@ -75,7 +74,12 @@ async def custom_route_handler(route, json_captured, dados, page):
             
         elif 'propostas' == last_path:
             if 'itens-grupo' == second_last_path:
-                dados.grupo.append(json_data)
+                print(json_data)
+                #dados.grupo.append(json_data)
+            elif json_data['tipo'] == 'G':
+                dados.propostas.append(json_data)
+                page.evaluate('getGrupoPropostas();')
+                json_captured.set()
             else:
                 dados.propostas.append(json_data)
                 json_captured.set()
