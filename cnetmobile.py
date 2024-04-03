@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright
 from urllib.parse import urlparse, parse_qs, urlencode
 from dataclasses import dataclass, field
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from Enum_classes.Enum import Enum
 from Enum_classes.Itens import Itens
 from Enum_classes.Propostas import Propostas
@@ -14,6 +14,7 @@ class CnetMobile:
     enum: Dict[str, Any] = field(default_factory=dict)
     itens: List[Dict[str, Any]] = field(default_factory=list)
     propostas: List[Dict[str, Any]] = field(default_factory=list)
+    grupo: List[Dict[str, Any]] = field(default_factory=list)
     compra_collected: bool = False
     enum_collected: bool = False
     
@@ -34,10 +35,11 @@ async def on_block(msg, page, url):
         #print("Bloqueado, reiniciando...")
         await page.goto(url)
 
-async def custom_route_handler(route, json_captured, dados):
+async def custom_route_handler(route, json_captured, dados, page):
     url = route.request.url
     parsed_url = urlparse(url)
     last_path = parsed_url.path.split('/')[-1]
+    second_last_path = parsed_url.path.split('/')[-2]
     
     if '/comprasnet-fase-externa/public/v1/' in parsed_url.path:
         
@@ -72,9 +74,11 @@ async def custom_route_handler(route, json_captured, dados):
             json_captured.set()
             
         elif 'propostas' == last_path:
-            #print(json_data)
-            dados.propostas.append(json_data)
-            json_captured.set()
+            if 'itens-grupo' == second_last_path:
+                dados.grupo.append(json_data)
+            else:
+                dados.propostas.append(json_data)
+                json_captured.set()
             
         else:
             print("UASG [COMPRA]")
@@ -107,7 +111,7 @@ async def fazer_requisicao(dados, browser, url, semaforo):
         # Defina a função para ser executada quando a página recarregar
         await page.expose_function('ping_block', lambda msg: on_block(msg, page, url))
         
-        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, dados))
+        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, dados, page))
         await page.goto(url)
         print(f'Iniciando a requisição: {url}')
         
