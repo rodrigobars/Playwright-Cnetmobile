@@ -26,15 +26,14 @@ class CnetMobile:
 
 async def on_message(msg):
     if msg['type'] == 'elementFound':
-        #print('>>> ', msg['data'])
         pass
 
 async def on_block(msg, page, url):
     if msg['type'] == 'blocked':
-        #print("Bloqueado, reiniciando...")
+        print("BloqueadoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO, reiniciando...")
         await page.goto(url)
 
-async def custom_route_handler(route, json_captured, dados, page):
+async def custom_route_handler(route, json_captured, page, dados, status):
     url = route.request.url
     parsed_url = urlparse(url)
     last_path = parsed_url.path.split('/')[-1]
@@ -60,6 +59,7 @@ async def custom_route_handler(route, json_captured, dados, page):
         if "application/json" in content_type:
             try:
                 json_data = await response.json()
+                print(f'JSON => {json_data}')
             except Exception as e:
                 print(f"Erro ao ler JSON da resposta: {e}")
         else:
@@ -68,18 +68,36 @@ async def custom_route_handler(route, json_captured, dados, page):
         await route.fulfill(response=response, json=json_data)
             
         if 'itens' == last_path:
-            #print(json_data)
             dados.itens = json_data
             json_captured.set()
             
         elif 'propostas' == last_path:
             if 'itens-grupo' == second_last_path:
-                print(json_data)
-                #dados.grupo.append(json_data)
+                if json_data:
+                    dicionario_proposta_item = {}
+                    dicionario_restante = {}
+                    for dicionario in json_data:
+                        for chave, valor in dicionario.items():
+                            # Se a chave for "propostaItem", adicione o valor ao dicionário "proposta_item"
+                            if chave == "propostaItem":
+                                dicionario_proposta_item[chave] = valor
+                                status.dicionario_propostas_item.append(dicionario_proposta_item)
+                            # Caso contrário, adicione a chave e o valor ao dicionário "restante"
+                            elif not status.dicionario_esqueleto:
+                                dicionario_restante[chave] = valor
+                                status.dicionario_esqueleto = dicionario_restante
+                status.companys_captured += 1
+                print(f'Quantidade de participantes capturados: {status.companys_captured}')
+                if status.companys_captured == status.companys_to_capture:
+                    print('\nquantidade de propostas do grupo concluída')
+                    print(f"ESQUELETO => {status.dicionario_esqueleto}")
+                    print(f"PROPOSTAS => {status.dicionario_propostas_item}")
+                    json_captured.set()
             elif json_data['tipo'] == 'G':
                 dados.propostas.append(json_data)
-                page.evaluate('getGrupoPropostas();')
-                json_captured.set()
+                status.companys_to_capture += len(json_data['propostasItem'])
+                print(f'Quantidade de participantes do grupo: {status.companys_to_capture}')
+                await page.evaluate('getGrupoPropostas();')
             else:
                 dados.propostas.append(json_data)
                 json_captured.set()
@@ -87,7 +105,6 @@ async def custom_route_handler(route, json_captured, dados, page):
         else:
             print("UASG [COMPRA]")
             if not dados.compra_collected:
-                #print(json_data)
                 dados.compra = json_data
                 dados.compra_collected = True
                 
@@ -105,21 +122,33 @@ async def custom_route_handler(route, json_captured, dados, page):
 async def fazer_requisicao(dados, browser, url, semaforo):
     async with semaforo:
         json_captured = asyncio.Event()
+
+        @dataclass
+        class Status:
+            companys_to_capture = 0
+            companys_captured = 0
+            dicionario_propostas_item = []
+            dicionario_esqueleto = []
+
+        status = Status()
+
         context = await browser.new_context(viewport={"width": 800, "height": 500})
         await context.add_init_script(path='preload.js')
+        await context.add_init_script(path='groupAction.js')
         page = await context.new_page()
-        
+
         # Expor a função para o contexto da página
         await page.expose_function('postMessage', on_message)
         
         # Defina a função para ser executada quando a página recarregar
         await page.expose_function('ping_block', lambda msg: on_block(msg, page, url))
         
-        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, dados, page))
+        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, page, dados, status))
         await page.goto(url)
         print(f'Iniciando a requisição: {url}')
-        
+
         await json_captured.wait()
+
         await page.close()
         await context.close()
         
@@ -140,7 +169,7 @@ async def main(dados, compra_numero):
     url_itens = f'{url_base}?compra={compra_numero}'
     
     async with async_playwright() as p:
-        browser = await p.firefox.launch(headless=True)
+        browser = await p.firefox.launch(headless=False)
         
         await fazer_requisicao(dados, browser, url_itens, semaforo)
         

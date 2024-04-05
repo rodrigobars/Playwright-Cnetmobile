@@ -1,0 +1,113 @@
+[
+  {
+    "numero": -1,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G1",
+    "descricao": "Grupo 1",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Sim",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 30292.89,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": 19,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 30276.06,
+              "valorUnitario": null
+            },
+            "valorInformado": 30276.06
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 22497.19,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "31900031000122",
+          "nome": "LENISA DISTRIBUIDORA LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio da proposta atualizada, juntamente com a ficha técnica e rótulos dos produtos ofertados.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2023-12-22T14:00:00",
+        "motivoDesclassificacao": "Licitante não enviou os documentos solicitados no prazo determinado.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 30292.89,
+              "valorUnitario": null
+            },
+            "valorInformado": 30292.89
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 22921.88,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta adjudicada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos enviar atestados de qualificação técnica, conforme subitem 8.28 do TR.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2023-12-26T16:45:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ]
+  }
+]

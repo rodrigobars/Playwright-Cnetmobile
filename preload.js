@@ -48,22 +48,34 @@ document.addEventListener('DOMContentLoaded', () => {
     startObserving();
 });
 
-const getGrupoPropostas = async () => {
-    const companys = document.getElementsByClassName("ng-trigger-animationRotate180");
-    const filteredElements = Array.from(companys).filter((element, index) => index > 0);
-    filteredElements.forEach((item) => item.click())
+// const getGrupoPropostas = async () => {
+//     console.log('hue')
+//     // const companys = document.getElementsByClassName("ng-trigger-animationRotate180");
+//     // const filteredElements = Array.from(companys).filter((element, index) => index > 0);
 
-    const buttonsProposta = Array.from(document.querySelectorAll('button'))
-        .filter(el => el.textContent === 'Proposta');
+//     // setTimeout(() => {
+//     //     filteredElements[0].click()
+//     // }, 2000);
+    
+//     //filteredElements.forEach((item) => item.click())
+    
+//     // const buttonsProposta = Array.from(document.querySelectorAll('button'))
+//     // .filter(el => el.textContent === 'Proposta');
+    
+//     // let delay = 5000;
+//     // setTimeout(() => {
+//     //     buttonsProposta[0].click()
+//     // }, delay);
 
-    let delay = 0;
+//     // let delay = 4000;
 
-    // Loop para clicar nos botões com delay individual
-    for (const button of buttonsProposta) {
-        setTimeout(() => {
-            button.click();
-        }, delay);
+//     // // Loop para clicar nos botões com delay individual
+//     // for (const button of buttonsProposta) {
+//     //     setTimeout(() => {
+//     //         button.click();
+//     //     }, delay);
 
-        delay += 500; // Aumenta o delay para o próximo botão
-    }
-}
+//     //     delay += 4000; // Aumenta o delay para o próximo botão
+//     // }
+
+// }
