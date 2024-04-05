@@ -9,6 +9,7 @@ class PropostasItem(Item):
             prazosFaseRecursal: Optional[dict] = None,
             qtdeAceitaSrp: Optional[int] = None,
             qtdeAdjudicadaSrp: Optional[int] = None,
+            subItens: Optional[dict] = None,
             **kwargs
         ):
         super().__init__(**kwargs)
@@ -16,6 +17,7 @@ class PropostasItem(Item):
         self.qtdeAdjudicadaSrp = qtdeAdjudicadaSrp
         self.prazosFaseRecursal = prazosFaseRecursal
         self.propostasItem = [PropostaFornecedor(**fornecedor).to_dict() for fornecedor in propostasItem]
+        self.subItens = subItens
 
 # # Leitura do arquivo JSON
 # with open('enums_externo.json', 'r', encoding='utf-8') as arquivo:

@@ -2,11 +2,12 @@ import asyncio
 from playwright.async_api import async_playwright
 from urllib.parse import urlparse, parse_qs, urlencode
 from dataclasses import dataclass, field
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 from Enum_classes.Enum import Enum
 from Enum_classes.Itens import Itens
 from Enum_classes.Propostas import Propostas
 from Enum_classes.Compra import Compra
+from pprint import pprint
 
 @dataclass
 class CnetMobile:
@@ -59,7 +60,7 @@ async def custom_route_handler(route, json_captured, page, dados, status):
         if "application/json" in content_type:
             try:
                 json_data = await response.json()
-                print(f'JSON => {json_data}')
+                #print(f'JSON => {json_data}')
             except Exception as e:
                 print(f"Erro ao ler JSON da resposta: {e}")
         else:
@@ -73,31 +74,50 @@ async def custom_route_handler(route, json_captured, page, dados, status):
             
         elif 'propostas' == last_path:
             if 'itens-grupo' == second_last_path:
-                if json_data:
-                    dicionario_proposta_item = {}
-                    dicionario_restante = {}
-                    for dicionario in json_data:
-                        for chave, valor in dicionario.items():
-                            # Se a chave for "propostaItem", adicione o valor ao dicionário "proposta_item"
-                            if chave == "propostaItem":
-                                dicionario_proposta_item[chave] = valor
-                                status.dicionario_propostas_item.append(dicionario_proposta_item)
-                            # Caso contrário, adicione a chave e o valor ao dicionário "restante"
-                            elif not status.dicionario_esqueleto:
-                                dicionario_restante[chave] = valor
-                                status.dicionario_esqueleto = dicionario_restante
+                
                 status.companys_captured += 1
                 print(f'Quantidade de participantes capturados: {status.companys_captured}')
-                if status.companys_captured == status.companys_to_capture:
-                    print('\nquantidade de propostas do grupo concluída')
-                    print(f"ESQUELETO => {status.dicionario_esqueleto}")
-                    print(f"PROPOSTAS => {status.dicionario_propostas_item}")
-                    json_captured.set()
+
+                if status.isFirstJsonGroup:
+                    
+                    for dicionario in json_data:
+                        dicionario.update( { 'propostaItem': [dicionario.pop('propostaItem')] } )
+
+                    for proposta in dados.propostas:
+                        if proposta['numero'] == status.actual_item:
+                            proposta['subItens'].append(json_data)
+                                
+                    status.isFirstJsonGroup = False
+
+                else:
+
+                    for dicionario in json_data:
+                        dicionario = dicionario.pop('propostaItem')
+
+                    for proposta in dados.propostas:
+                        if proposta['numero'] == status.actual_item:
+                            for subItem in proposta['subItens']:
+                                if subItem['numero'] == 
+                                
+                    # for dicionario in json_data:
+                    #     for proposta in dados.propostas:
+                    #         if proposta['numero'] == status.actual_item:
+                    #             pass
+                    #   proposta['propostasItem'].append(dicionario.pop('propostaItem'))
+                    #   pprint(f'PROPSOTA MANIPULADA => {proposta}')
+
+                    if status.companys_captured == status.companys_to_capture:
+                        print('\nquantidade de propostas do grupo concluída')
+                        json_captured.set()
+
             elif json_data['tipo'] == 'G':
+                status.actual_item = json_data['numero']
+                json_data.update( {'subItens': []} )
                 dados.propostas.append(json_data)
                 status.companys_to_capture += len(json_data['propostasItem'])
                 print(f'Quantidade de participantes do grupo: {status.companys_to_capture}')
                 await page.evaluate('getGrupoPropostas();')
+
             else:
                 dados.propostas.append(json_data)
                 json_captured.set()
@@ -127,14 +147,14 @@ async def fazer_requisicao(dados, browser, url, semaforo):
         class Status:
             companys_to_capture = 0
             companys_captured = 0
-            dicionario_propostas_item = []
-            dicionario_esqueleto = []
+            actual_item = None
+            isFirstJsonGroup = True
 
         status = Status()
 
         context = await browser.new_context(viewport={"width": 800, "height": 500})
         await context.add_init_script(path='preload.js')
-        await context.add_init_script(path='groupAction.js')
+        await context.add_init_script(path='groupGetter.js')
         page = await context.new_page()
 
         # Expor a função para o contexto da página
