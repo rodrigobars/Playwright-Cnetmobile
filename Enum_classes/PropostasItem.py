@@ -18,21 +18,3 @@ class PropostasItem(Item):
         self.prazosFaseRecursal = prazosFaseRecursal
         self.propostasItem = [PropostaFornecedor(**fornecedor).to_dict() for fornecedor in propostasItem]
         self.subItens = subItens
-
-# # Leitura do arquivo JSON
-# with open('enums_externo.json', 'r', encoding='utf-8') as arquivo:
-#     enum_externo = json.load(arquivo)
-    
-# with open('propostas.json', 'r', encoding='utf-8') as arquivo:
-#     propostas = json.load(arquivo)
-
-#Enum.feed(enum_externo)
-
-#empresa1 = propostas[0]
-
-#pprint(empresa1['propostasItem'][0])
-#pprint(Empresa(**empresa1['propostasItem'][0]))
-
-# propostasItem = list()
-# for item in propostas:
-#     print(PropostasItem(**item), '\n')

@@ -1,0 +1,1692 @@
+[
+  {
+    "numero": -1,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
+    "possuiOrcamentoSigiloso": "Não",
+    "identificador": "G1",
+    "descricao": "Grupo 1",
+    "criterioJulgamento": "Menor Preço",
+    "homologado": "Sim",
+    "situacaoEnvioResultado": "None",
+    "numeroSessaoJulgHab": 1,
+    "tipoTratamentoDiferenciadoMeEpp": "Exclusividade ME/EPP",
+    "participacaoExclusivaMeEppOuEquiparadas": "Sim",
+    "situacao": "Ativo",
+    "fase": "Adjudicação encerrada",
+    "quantidadeSolicitada": null,
+    "criterioValor": "Valor estimado",
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 30292.89,
+    "priorizarAbertura": "Não",
+    "julgHabEncerrada": "Sim",
+    "qtdeItensDoGrupo": 19,
+    "qtdeAceitaSrp": null,
+    "qtdeAdjudicadaSrp": null,
+    "prazosFaseRecursal": {},
+    "propostasItem": [
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 30276.06,
+              "valorUnitario": null
+            },
+            "valorInformado": 30276.06
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 22497.19,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "31900031000122",
+          "nome": "LENISA DISTRIBUIDORA LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos o envio da proposta atualizada, juntamente com a ficha técnica e rótulos dos produtos ofertados.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2023-12-22T14:00:00",
+        "motivoDesclassificacao": "Licitante não enviou os documentos solicitados no prazo determinado.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 30292.89,
+              "valorUnitario": null
+            },
+            "valorInformado": 30292.89
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 22921.88,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "Proposta adjudicada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "09031962000182",
+          "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": "E",
+        "justificativaUltimaSolicitacaoAnexos": "Solicitamos enviar atestados de qualificação técnica, conforme subitem 8.28 do TR.",
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": "2023-12-26T16:45:00",
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null
+      }
+    ],
+    "subItens": [
+      {
+        "numero": 1,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "1",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 93,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 19.51,
+        "valorEstimadoTotal": 1814.43,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 93,
+            "marcaFabricante": "tempera bem ",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 19.5,
+                "valorCalculado": {
+                  "valorUnitario": 19.5,
+                  "valorTotal": 1813.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.5,
+                "valorCalculado": {
+                  "valorUnitario": 19.5,
+                  "valorTotal": 1813.5
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 93,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 19.51,
+                "valorCalculado": {
+                  "valorUnitario": 19.51,
+                  "valorTotal": 1814.43
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 16.94,
+                "valorCalculado": {
+                  "valorUnitario": 16.94,
+                  "valorTotal": 1575.42
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "2",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 70,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 18.85,
+        "valorEstimadoTotal": 1319.5,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 70,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.84,
+                "valorCalculado": {
+                  "valorUnitario": 18.84,
+                  "valorTotal": 1318.8
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 10.0,
+                "valorCalculado": {
+                  "valorUnitario": 10.0,
+                  "valorTotal": 700.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 70,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.85,
+                "valorCalculado": {
+                  "valorUnitario": 18.85,
+                  "valorTotal": 1319.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.4,
+                "valorCalculado": {
+                  "valorUnitario": 11.4,
+                  "valorTotal": 798.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "3",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 58,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 9.99,
+        "valorEstimadoTotal": 579.42,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 58,
+            "marcaFabricante": "chinesinho",
+            "modeloVersao": "30grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 9.98,
+                "valorCalculado": {
+                  "valorUnitario": 9.98,
+                  "valorTotal": 578.84
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 5.0,
+                "valorCalculado": {
+                  "valorUnitario": 5.0,
+                  "valorTotal": 290.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 58,
+            "marcaFabricante": "KITANO/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 9.99,
+                "valorCalculado": {
+                  "valorUnitario": 9.99,
+                  "valorTotal": 579.42
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 4.0,
+                "valorCalculado": {
+                  "valorUnitario": 4.0,
+                  "valorTotal": 232.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "4",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 6,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 70.96,
+        "valorEstimadoTotal": 425.76,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 6,
+            "marcaFabricante": "tempera bem ",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 70.95,
+                "valorCalculado": {
+                  "valorUnitario": 70.95,
+                  "valorTotal": 425.7
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 25.0,
+                "valorCalculado": {
+                  "valorUnitario": 25.0,
+                  "valorTotal": 150.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 6,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 70.96,
+                "valorCalculado": {
+                  "valorUnitario": 70.96,
+                  "valorTotal": 425.76
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 30.0,
+                "valorCalculado": {
+                  "valorUnitario": 30.0,
+                  "valorTotal": 180.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "5",
+        "descricao": "Tempero",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 144,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 21.52,
+        "valorEstimadoTotal": 3098.88,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 144,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 21.51,
+                "valorCalculado": {
+                  "valorUnitario": 21.51,
+                  "valorTotal": 3097.44
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.0,
+                "valorCalculado": {
+                  "valorUnitario": 19.0,
+                  "valorTotal": 2736.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 144,
+            "marcaFabricante": "TEMPERABEM",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 21.52,
+                "valorCalculado": {
+                  "valorUnitario": 21.52,
+                  "valorTotal": 3098.88
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 21.08,
+                "valorCalculado": {
+                  "valorUnitario": 21.08,
+                  "valorTotal": 3035.52
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "6",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 600,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 15.93,
+        "valorEstimadoTotal": 9558.0,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 600,
+            "marcaFabricante": "tempero bem",
+            "modeloVersao": "kg",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 15.92,
+                "valorCalculado": {
+                  "valorUnitario": 15.92,
+                  "valorTotal": 9552.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 10.0,
+                "valorCalculado": {
+                  "valorUnitario": 10.0,
+                  "valorTotal": 6000.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 600,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 15.93,
+                "valorCalculado": {
+                  "valorUnitario": 15.93,
+                  "valorTotal": 9558.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.8,
+                "valorCalculado": {
+                  "valorUnitario": 9.8,
+                  "valorTotal": 5880.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "7",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 33,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 13.7,
+        "valorEstimadoTotal": 452.1,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 33,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 grs",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.69,
+                "valorCalculado": {
+                  "valorUnitario": 13.69,
+                  "valorTotal": 451.77
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.0,
+                "valorCalculado": {
+                  "valorUnitario": 9.0,
+                  "valorTotal": 297.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 33,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.7,
+                "valorCalculado": {
+                  "valorUnitario": 13.7,
+                  "valorTotal": 452.1
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.9,
+                "valorCalculado": {
+                  "valorUnitario": 9.9,
+                  "valorTotal": 326.7
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "8",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 17,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 57.48,
+        "valorEstimadoTotal": 977.16,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 17,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 57.47,
+                "valorCalculado": {
+                  "valorUnitario": 57.47,
+                  "valorTotal": 976.99
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 57.47,
+                "valorCalculado": {
+                  "valorUnitario": 57.47,
+                  "valorTotal": 976.99
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 17,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 57.48,
+                "valorCalculado": {
+                  "valorUnitario": 57.48,
+                  "valorTotal": 977.16
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 57.48,
+                "valorCalculado": {
+                  "valorUnitario": 57.48,
+                  "valorTotal": 977.16
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "9",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 44,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.7,
+        "valorEstimadoTotal": 646.8,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.69,
+                "valorCalculado": {
+                  "valorUnitario": 14.69,
+                  "valorTotal": 646.36
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 6.0,
+                "valorCalculado": {
+                  "valorUnitario": 6.0,
+                  "valorTotal": 264.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.7,
+                "valorCalculado": {
+                  "valorUnitario": 14.7,
+                  "valorTotal": 646.8
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 13.3,
+                "valorCalculado": {
+                  "valorUnitario": 13.3,
+                  "valorTotal": 585.2
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "10",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 23,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 12.35,
+        "valorEstimadoTotal": 284.05,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 23,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 12.34,
+                "valorCalculado": {
+                  "valorUnitario": 12.34,
+                  "valorTotal": 283.82
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 7.0,
+                "valorCalculado": {
+                  "valorUnitario": 7.0,
+                  "valorTotal": 161.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 23,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 12.35,
+                "valorCalculado": {
+                  "valorUnitario": 12.35,
+                  "valorTotal": 284.05
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.6,
+                "valorCalculado": {
+                  "valorUnitario": 8.6,
+                  "valorTotal": 197.8
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "11",
+        "descricao": "Tempero",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 45,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 20.22,
+        "valorEstimadoTotal": 909.9,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 45,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 20.21,
+                "valorCalculado": {
+                  "valorUnitario": 20.21,
+                  "valorTotal": 909.45
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.0,
+                "valorCalculado": {
+                  "valorUnitario": 18.0,
+                  "valorTotal": 810.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 45,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 20.22,
+                "valorCalculado": {
+                  "valorUnitario": 20.22,
+                  "valorTotal": 909.9
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.7,
+                "valorCalculado": {
+                  "valorUnitario": 19.7,
+                  "valorTotal": 886.5
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "12",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 84,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 26.24,
+        "valorEstimadoTotal": 2204.16,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 84,
+            "marcaFabricante": "tempera bem/casa pedro",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 26.23,
+                "valorCalculado": {
+                  "valorUnitario": 26.23,
+                  "valorTotal": 2203.32
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 26.23,
+                "valorCalculado": {
+                  "valorUnitario": 26.23,
+                  "valorTotal": 2203.32
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 84,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 26.24,
+                "valorCalculado": {
+                  "valorUnitario": 26.24,
+                  "valorTotal": 2204.16
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.08,
+                "valorCalculado": {
+                  "valorUnitario": 19.08,
+                  "valorTotal": 1602.72
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "13",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 44,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 13.33,
+        "valorEstimadoTotal": 586.52,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.32,
+                "valorCalculado": {
+                  "valorUnitario": 13.32,
+                  "valorTotal": 586.08
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.0,
+                "valorCalculado": {
+                  "valorUnitario": 11.0,
+                  "valorTotal": 484.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 44,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 13.33,
+                "valorCalculado": {
+                  "valorUnitario": 13.33,
+                  "valorTotal": 586.52
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 13.33,
+                "valorCalculado": {
+                  "valorUnitario": 13.33,
+                  "valorTotal": 586.52
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "14",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 22,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 28.8,
+        "valorEstimadoTotal": 633.6,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 22,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 28.79,
+                "valorCalculado": {
+                  "valorUnitario": 28.79,
+                  "valorTotal": 633.38
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 28.79,
+                "valorCalculado": {
+                  "valorUnitario": 28.79,
+                  "valorTotal": 633.38
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 22,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 28.8,
+                "valorCalculado": {
+                  "valorUnitario": 28.8,
+                  "valorTotal": 633.6
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 16.51,
+                "valorCalculado": {
+                  "valorUnitario": 16.51,
+                  "valorTotal": 363.22
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "15",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 65,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 23.31,
+        "valorEstimadoTotal": 1515.15,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 65,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 23.3,
+                "valorCalculado": {
+                  "valorUnitario": 23.3,
+                  "valorTotal": 1514.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 19.0,
+                "valorCalculado": {
+                  "valorUnitario": 19.0,
+                  "valorTotal": 1235.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 65,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 23.31,
+                "valorCalculado": {
+                  "valorUnitario": 23.31,
+                  "valorTotal": 1515.15
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 21.37,
+                "valorCalculado": {
+                  "valorUnitario": 21.37,
+                  "valorTotal": 1389.05
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "16",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 92,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.55,
+        "valorEstimadoTotal": 1338.6,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 92,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.54,
+                "valorCalculado": {
+                  "valorUnitario": 14.54,
+                  "valorTotal": 1337.68
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 736.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 92,
+            "marcaFabricante": "TEM´PERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.55,
+                "valorCalculado": {
+                  "valorUnitario": 14.55,
+                  "valorTotal": 1338.6
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 11.12,
+                "valorCalculado": {
+                  "valorUnitario": 11.12,
+                  "valorTotal": 1023.04
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "17",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 68,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.27,
+        "valorEstimadoTotal": 970.36,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 68,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500 g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.26,
+                "valorCalculado": {
+                  "valorUnitario": 14.26,
+                  "valorTotal": 969.68
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 544.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 68,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.27,
+                "valorCalculado": {
+                  "valorUnitario": 14.27,
+                  "valorTotal": 970.36
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.96,
+                "valorCalculado": {
+                  "valorUnitario": 9.96,
+                  "valorTotal": 677.28
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "18",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 75,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 14.86,
+        "valorEstimadoTotal": 1114.5,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 75,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.85,
+                "valorCalculado": {
+                  "valorUnitario": 14.85,
+                  "valorTotal": 1113.75
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 8.0,
+                "valorCalculado": {
+                  "valorUnitario": 8.0,
+                  "valorTotal": 600.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 75,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 14.86,
+                "valorCalculado": {
+                  "valorUnitario": 14.86,
+                  "valorTotal": 1114.5
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 9.89,
+                "valorCalculado": {
+                  "valorUnitario": 9.89,
+                  "valorTotal": 741.75
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tipo": "S",
+        "disputaPorValorUnitario": true,
+        "possuiOrcamentoSigiloso": false,
+        "identificador": "19",
+        "descricao": "Condimento",
+        "criterioJulgamento": "1",
+        "homologado": true,
+        "situacaoEnvioResultado": "SP",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "1",
+        "participacaoExclusivaMeEppOuEquiparadas": true,
+        "situacao": "1",
+        "fase": "AE",
+        "quantidadeSolicitada": 100,
+        "criterioValor": "E",
+        "valorEstimadoUnitario": 18.64,
+        "valorEstimadoTotal": 1864.0,
+        "julgHabEncerrada": true,
+        "propostaItem": [
+          {
+            "quantidadeOfertada": 100,
+            "marcaFabricante": "tempera bem",
+            "modeloVersao": "500g",
+            "situacao": "2",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.63,
+                "valorCalculado": {
+                  "valorUnitario": 18.63,
+                  "valorTotal": 1863.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.63,
+                "valorCalculado": {
+                  "valorUnitario": 18.63,
+                  "valorTotal": 1863.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "31900031000122",
+              "nome": "LENISA DISTRIBUIDORA LTDA",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          },
+          {
+            "quantidadeOfertada": 100,
+            "marcaFabricante": "TEMPERABEM/ZANA",
+            "modeloVersao": "CARACTERISTICO",
+            "situacao": "6",
+            "empatadoComoMelhorClassificado": false,
+            "valores": {
+              "valorPropostaInicial": {
+                "valorInformado": 18.64,
+                "valorCalculado": {
+                  "valorUnitario": 18.64,
+                  "valorTotal": 1864.0
+                }
+              },
+              "valorPropostaInicialOuLances": {
+                "valorInformado": 18.64,
+                "valorCalculado": {
+                  "valorUnitario": 18.64,
+                  "valorTotal": 1864.0
+                }
+              }
+            },
+            "participante": {
+              "identificacao": "09031962000182",
+              "nome": "C C S VALENTE COMERCIO DE GENEROS ALIMENTICIOS",
+              "tipo": "J"
+            },
+            "declaracaoMeEpp": true,
+            "canalChatAberto": false
+          }
+        ]
+      }
+    ]
+  }
+]

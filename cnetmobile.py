@@ -85,26 +85,18 @@ async def custom_route_handler(route, json_captured, page, dados, status):
 
                     for proposta in dados.propostas:
                         if proposta['numero'] == status.actual_item:
-                            proposta['subItens'].append(json_data)
+                            proposta['subItens'] += json_data
                                 
                     status.isFirstJsonGroup = False
 
                 else:
 
-                    for dicionario in json_data:
-                        dicionario = dicionario.pop('propostaItem')
-
                     for proposta in dados.propostas:
                         if proposta['numero'] == status.actual_item:
                             for subItem in proposta['subItens']:
-                                if subItem['numero'] == 
-                                
-                    # for dicionario in json_data:
-                    #     for proposta in dados.propostas:
-                    #         if proposta['numero'] == status.actual_item:
-                    #             pass
-                    #   proposta['propostasItem'].append(dicionario.pop('propostaItem'))
-                    #   pprint(f'PROPSOTA MANIPULADA => {proposta}')
+                                for dicionario in json_data:
+                                    if subItem['numero'] == dicionario['numero']:
+                                       subItem['propostaItem'].append(dicionario.pop('propostaItem'))
 
                     if status.companys_captured == status.companys_to_capture:
                         print('\nquantidade de propostas do grupo concluída')
