@@ -181,7 +181,7 @@ async def main(dados, compra_numero):
     url_itens = f'{url_base}?compra={compra_numero}'
     
     async with async_playwright() as p:
-        browser = await p.firefox.launch(headless=False)
+        browser = await p.firefox.launch(headless=True)
         
         await fazer_requisicao(dados, browser, url_itens, semaforo)
         
