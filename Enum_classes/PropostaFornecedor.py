@@ -21,7 +21,8 @@ class PropostaFornecedor(Enum):
             dataHoraLimiteAtendimento: Optional[str] = None,
             motivoDesclassificacao: Optional[str] = None,
             situacaoNaDisputaFinal: Optional[str] = None,
-            situacaoNoDesempateMeEpp: Optional[str] = None
+            situacaoNoDesempateMeEpp: Optional[str] = None,
+            empatadoComoMelhorClassificado: Optional[dict] = None, # Botei recentemente
         ):
         self.valores = Valores(**valores).to_dict()
         self.quantidadeOfertada = quantidadeOfertada
@@ -41,6 +42,7 @@ class PropostaFornecedor(Enum):
         self.motivoDesclassificacao = motivoDesclassificacao
         self.situacaoNaDisputaFinal = situacaoNaDisputaFinal
         self.situacaoNoDesempateMeEpp = situacaoNoDesempateMeEpp
+        self.empatadoComoMelhorClassificado = empatadoComoMelhorClassificado
         
     def __repr__(self):
         return str(vars(self))

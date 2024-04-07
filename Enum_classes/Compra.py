@@ -1,4 +1,3 @@
-#from Enum_classes.Enum import *
 from Enum_classes.Enum import *
 
 def sim_ou_nao(bool: bool):
