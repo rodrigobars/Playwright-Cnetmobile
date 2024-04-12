@@ -1,11 +1,11 @@
 [
   {
-    "numero": 1,
-    "tipo": "ItemPregao não agrupado",
-    "disputaPorValorUnitario": "Sim",
+    "numero": -1,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
     "possuiOrcamentoSigiloso": "Não",
-    "identificador": "1",
-    "descricao": "Café",
+    "identificador": "G1",
+    "descricao": "Grupo 1",
     "criterioJulgamento": "Menor Preço",
     "homologado": "Sim",
     "situacaoEnvioResultado": "None",
@@ -14,13 +14,13 @@
     "participacaoExclusivaMeEppOuEquiparadas": "Não",
     "situacao": "Ativo",
     "fase": "Adjudicação encerrada",
-    "quantidadeSolicitada": 6900,
+    "quantidadeSolicitada": null,
     "criterioValor": "Valor estimado",
-    "valorEstimado": 18.59,
-    "valorEstimadoUnitario": 18.59,
-    "valorEstimadoTotal": 128271.0,
+    "valorEstimado": null,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 227630.38,
     "priorizarAbertura": "Não",
     "julgHabEncerrada": "Sim",
-    "qtdeItensDoGrupo": null
+    "qtdeItensDoGrupo": 6
   }
 ]

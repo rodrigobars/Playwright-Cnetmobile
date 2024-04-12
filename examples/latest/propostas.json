@@ -1,11 +1,11 @@
 [
   {
-    "numero": 1,
-    "tipo": "ItemPregao não agrupado",
-    "disputaPorValorUnitario": "Sim",
+    "numero": -1,
+    "tipo": "Grupo",
+    "disputaPorValorUnitario": "Não",
     "possuiOrcamentoSigiloso": "Não",
-    "identificador": "1",
-    "descricao": "Café",
+    "identificador": "G1",
+    "descricao": "Grupo 1",
     "criterioJulgamento": "Menor Preço",
     "homologado": "Sim",
     "situacaoEnvioResultado": "None",
@@ -14,14 +14,14 @@
     "participacaoExclusivaMeEppOuEquiparadas": "Não",
     "situacao": "Ativo",
     "fase": "Adjudicação encerrada",
-    "quantidadeSolicitada": 6900,
+    "quantidadeSolicitada": null,
     "criterioValor": "Valor estimado",
     "valorEstimado": null,
-    "valorEstimadoUnitario": 18.59,
-    "valorEstimadoTotal": 128271.0,
+    "valorEstimadoUnitario": null,
+    "valorEstimadoTotal": 227630.38,
     "priorizarAbertura": "Não",
     "julgHabEncerrada": "Sim",
-    "qtdeItensDoGrupo": null,
+    "qtdeItensDoGrupo": 6,
     "qtdeAceitaSrp": null,
     "qtdeAdjudicadaSrp": null,
     "prazosFaseRecursal": {},
@@ -30,39 +30,39 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
+              "valorTotal": 512530.0,
+              "valorUnitario": null
             },
-            "valorInformado": 18.5
+            "valorInformado": 512530.0
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 64170.0,
-              "valorUnitario": 9.3
+              "valorTotal": 69934.0,
+              "valorUnitario": null
             },
-            "valorInformado": 9.3
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "Proposta adjudicada",
-        "marcaFabricante": "AROMA DE OURO",
-        "modeloVersao": "SUPERIOR A VACUO",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "03370573000103",
-          "nome": "J. T. INDUSTRIA E COMERCIO DE CAFES LTDA",
+          "identificacao": "29769374000158",
+          "nome": "KING CROWN LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": "E",
-        "justificativaUltimaSolicitacaoAnexos": "Anexar demonstrações contábeis referentes aos anos de 2021 e 2022, registrados conforme legislação.",
+        "justificativaUltimaSolicitacaoAnexos": "Solicito o envio da proposta adequada ao último lance ofertado no prazo de 3 (três) horas, considerando o período de almoço.",
         "declaracaoMeEpp": "Sim",
         "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": "2024-02-06T12:15:00",
+        "dataHoraLimiteAtendimento": "2024-03-22T13:45:00",
         "motivoDesclassificacao": null,
         "situacaoNaDisputaFinal": null,
         "situacaoNoDesempateMeEpp": null,
@@ -72,32 +72,74 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 124200.0,
-              "valorUnitario": 18.0
+              "valorTotal": 69972.32,
+              "valorUnitario": null
             },
-            "valorInformado": 18.0
+            "valorInformado": 69972.32
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 64653.0,
-              "valorUnitario": 9.37
+              "valorTotal": 69972.32,
+              "valorUnitario": null
             },
-            "valorInformado": 9.37
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CAFE COLISEU",
-        "modeloVersao": "CAFE COLISEU",
+        "situacao": "Proposta desclassificada",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "42619993000124",
-          "nome": "CAFE COLISEU LTDA",
+          "identificacao": "43410748000175",
+          "nome": "43.410.748 LEANDRO CARDOSO DE SOUZA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": "A proposta foi desclassificada automaticamente pelo sistema porque existiam itens do grupo sem proposta.",
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 86948.08,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "29613651000139",
+          "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -114,32 +156,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 72450.0,
-              "valorUnitario": 10.5
+              "valorTotal": 103521.48,
+              "valorUnitario": null
             },
-            "valorInformado": 10.5
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "santo cristo",
-        "modeloVersao": "santo cristo",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "37201726000100",
-          "nome": "RF TORREFACAO DE CAFE LTDA",
+          "identificacao": "48723144000100",
+          "nome": "GENIUS MODAS E UNIFORMES LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -156,32 +198,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 117300.0,
-              "valorUnitario": 17.0
+              "valorTotal": 220799.84,
+              "valorUnitario": null
             },
-            "valorInformado": 17.0
+            "valorInformado": 220799.84
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 74175.0,
-              "valorUnitario": 10.75
+              "valorTotal": 105303.36,
+              "valorUnitario": null
             },
-            "valorInformado": 10.75
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "MAIS SABOR / IMPERIAL CAFÉ",
-        "modeloVersao": "´VACUO / 500 G",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "07638718000157",
-          "nome": "IMPERIAL CAFE COMERCIO EXPORTACAO E IMPORTACAO LTDA",
+          "identificacao": "19932323000141",
+          "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -198,32 +240,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227477.1,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227477.1
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 75141.0,
-              "valorUnitario": 10.89
+              "valorTotal": 106625.4,
+              "valorUnitario": null
             },
-            "valorInformado": 10.89
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Conforme Termo de Referencia",
-        "modeloVersao": "Conforme Termo de Referencia",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "49424137000162",
-          "nome": "DOULOS SERVICE LTDA",
+          "identificacao": "08046001000189",
+          "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -240,32 +282,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 151800.0,
-              "valorUnitario": 22.0
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 22.0
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 75210.0,
-              "valorUnitario": 10.9
+              "valorTotal": 109212.0,
+              "valorUnitario": null
             },
-            "valorInformado": 10.9
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Odebrecht / Odebrecht Com e Ind de Café Ltda.",
-        "modeloVersao": "Vácuo",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "11517200000132",
-          "nome": "MICRON GENEROS ALIMENTICIOS LTDA",
+          "identificacao": "36112657000198",
+          "nome": "PROMIX COMERCIAL LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -282,32 +324,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 75831.0,
-              "valorUnitario": 10.99
+              "valorTotal": 109729.32,
+              "valorUnitario": null
             },
-            "valorInformado": 10.99
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "AMAZONAS ",
-        "modeloVersao": "CAFÉ AMAZONAS EXTRA FORTE ",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "21475564000150",
-          "nome": "AMIGOS CESTA BASICA-COMERCIO DE ALIMENTOS LTDA",
+          "identificacao": "14103697000130",
+          "nome": "TF LIMA PLAY 2 SPORTS LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -324,32 +366,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 224172.0,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 224172.0
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 75900.0,
-              "valorUnitario": 11.0
+              "valorTotal": 111511.2,
+              "valorUnitario": null
             },
-            "valorInformado": 11.0
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "AMAZONAS / CIA. CAPITAL",
-        "modeloVersao": "VÁCUO / 500G",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "31021788000146",
-          "nome": "F PEREIRA COMERCIO E DISTRIBUIDORA LTDA",
+          "identificacao": "14960635000145",
+          "nome": "O.J. DO NASCIMENTO - UNIFORMES",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -366,32 +408,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 75900.0,
-              "valorUnitario": 11.0
+              "valorTotal": 114002.0,
+              "valorUnitario": null
             },
-            "valorInformado": 11.0
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "BICO DE OURO / BICO DE OURO INDÚSTRIA LTDA",
-        "modeloVersao": "PCTS 500 GRS VÁCUO / TRADICIONAL",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "28128565000178",
-          "nome": "PARANOA DISTRIBUICAO IMPORTACAO E EXPORTACAO LTDA",
+          "identificacao": "18078753000185",
+          "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -408,32 +450,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 224172.0,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 224172.0
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 76935.0,
-              "valorUnitario": 11.15
+              "valorTotal": 115918.0,
+              "valorUnitario": null
             },
-            "valorInformado": 11.15
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Odebrecht",
-        "modeloVersao": "Tradicional",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "27245852000103",
-          "nome": "SUL BRASIL ATACADISTA LIMITADA",
+          "identificacao": "18466668000194",
+          "nome": "PONTE COMERCIO IMPORTACAO E EXPORTACAO LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -450,32 +492,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 127581.0,
-              "valorUnitario": 18.49
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.49
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 77832.0,
-              "valorUnitario": 11.28
+              "valorTotal": 119941.6,
+              "valorUnitario": null
             },
-            "valorInformado": 11.28
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Canaan",
-        "modeloVersao": "Café ",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "01301745000153",
-          "nome": "NUTREMAZ COMERCIO LTDA",
+          "identificacao": "19292314000133",
+          "nome": "ZS TEXTIL INDUSTRIA DE  CONFECCOES LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -492,32 +534,1124 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
+              "valorTotal": 227429.2,
+              "valorUnitario": null
             },
-            "valorInformado": 18.5
+            "valorInformado": 227429.2
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 77901.0,
-              "valorUnitario": 11.29
+              "valorTotal": 120372.7,
+              "valorUnitario": null
             },
-            "valorInformado": 11.29
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Farroupilha Tradicional/Jurerê Caffe",
-        "modeloVersao": "500 gr",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "00214257000146",
-          "nome": "JURERE CAFFE COMERCIO DE ALIMENTOS LTDA",
+          "identificacao": "47146661000193",
+          "nome": "ENG LAGOS EMPREENDIMENTOS E SOLUCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 127797.2,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "04113609000128",
+          "nome": "DIATHEKE INDUSTRIA E COMERCIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 134120.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "36857927000190",
+          "nome": "STAR TEXTIL SERVICOS E CONFECCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 143125.2,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "48796844000117",
+          "nome": "JMM CONFECCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 143700.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "19738413000104",
+          "nome": "RAG COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 144025.72,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "27116740000144",
+          "nome": "C.I. CONFECCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 224172.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 145328.6,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "38288971000151",
+          "nome": "T PA AZEREDO INDUSTRIA E COMERCIO DE ROUPAS",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 146526.1,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "18381449000102",
+          "nome": "CONFECCOES MCB LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 224746.8,
+              "valorUnitario": null
+            },
+            "valorInformado": 224746.8
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 150712.56,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "17099595000187",
+          "nome": "TOPVISION COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 222256.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 222256.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 153759.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "39561642000103",
+          "nome": "MM EFRAIM COMERCIO E SERVICO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 158999.26,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "34617424000111",
+          "nome": "JOB NEGOCIOS PUBLICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 229920.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 229920.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 159028.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "03177123000190",
+          "nome": "ALAIDE ALVES DOS SANTOS",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 165130.46,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "40498432000199",
+          "nome": "ER BARCELOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 689760.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 689760.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 169518.1,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "23829339000109",
+          "nome": "INFINITI CONFECCAO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 185325.1,
+              "valorUnitario": null
+            },
+            "valorInformado": 185325.1
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 185325.1,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "48825950000181",
+          "nome": "SILKOU COMERCIO E CONFECCAO DE ROUPAS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 188546.854,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "11420136000177",
+          "nome": "PERSONALIT INDUSTRIA E COMERCIO LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 193219.02,
+              "valorUnitario": null
+            },
+            "valorInformado": 193219.02
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 193219.02,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "52080811000143",
+          "nome": "52.080.811 JULIA ROBERTA NASCIMENTO CORREA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 197022.28,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "15534841000156",
+          "nome": "G.F.CONFECCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 204054.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 204054.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 204054.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "50583738000105",
+          "nome": "RIOLLI&LIMA UNIFORMES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 226068.84,
+              "valorUnitario": null
+            },
+            "valorInformado": 226068.84
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 204350.98,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "07045994000101",
+          "nome": "ROSILENE TONATTO SPAZZINI",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 205778.4,
+              "valorUnitario": null
+            },
+            "valorInformado": 205778.4
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 205778.4,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "51078627000104",
+          "nome": "PENNAFORTE DISTRIBUIDORA LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 222160.2,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "18250413000190",
+          "nome": "UNILIMA UNIFORMES E CONFECCOES LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 224172.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "44272256000123",
+          "nome": "44.272.256 ERIA CARLA OLIVEIRA QUEIROZ",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 224172.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "46344078000124",
+          "nome": "PRIME MEDICAL PHARMA DISTRIBUIDORA DE MEDICAMENTOS E MATERIAL HOSPITALAR LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": 224172.0
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 224172.0,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "31420640000184",
+          "nome": "W2 COMERCIO & SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 226768.18,
+              "valorUnitario": null
+            },
+            "valorInformado": 226768.18
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 226768.18,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "30775478000154",
+          "nome": "AKILA PRIME COMERCIO E SERVICOS LTDA",
+          "tipo": "Pessoa Jurídica"
+        },
+        "situacaoUltimaSolicitacaoAnexos": null,
+        "justificativaUltimaSolicitacaoAnexos": null,
+        "declaracaoMeEpp": "Sim",
+        "canalChatAberto": "Não",
+        "dataHoraLimiteAtendimento": null,
+        "motivoDesclassificacao": null,
+        "situacaoNaDisputaFinal": null,
+        "situacaoNoDesempateMeEpp": null,
+        "empatadoComoMelhorClassificado": null
+      },
+      {
+        "valores": {
+          "valorPropostaInicial": {
+            "valorCalculado": {
+              "valorTotal": 227630.38,
+              "valorUnitario": null
+            },
+            "valorInformado": 227630.38
+          },
+          "valorPropostaInicialOuLances": {
+            "valorCalculado": {
+              "valorTotal": 227333.4,
+              "valorUnitario": null
+            },
+            "valorInformado": null
+          },
+          "valorSugeridoNegociacao": null,
+          "valorNegociado": null
+        },
+        "quantidadeOfertada": null,
+        "descricaoDetalhada": null,
+        "situacao": "None",
+        "marcaFabricante": null,
+        "modeloVersao": null,
+        "situacaoUltimaNegociacao": null,
+        "justificativaUltimaNegociacao": null,
+        "situacaoNaFaseFechadaModoAbertoFechado": null,
+        "participante": {
+          "identificacao": "33841838000167",
+          "nome": "NP UNIFORMES LTDA.",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -534,74 +1668,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 80730.0,
-              "valorUnitario": 11.7
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 11.7
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "Savassi / Multicom Comércio Múltiplo de Alim. Ltda",
-        "modeloVersao": "Tradicional Vácuo",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "05656062000170",
-          "nome": "MULTICOM COMERCIO MULTIPLO DE ALIMENTOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Não",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 125580.0,
-              "valorUnitario": 18.2
-            },
-            "valorInformado": 18.2
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 82800.0,
-              "valorUnitario": 12.0
-            },
-            "valorInformado": 12.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "café do amanha",
-        "modeloVersao": "torrado e moído ",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "52813154000104",
-          "nome": "52.813.154 DAVISON SANTOS DA SILVA",
+          "identificacao": "35956048000152",
+          "nome": "G DA M DE O DISTRIBUIDORA E SERVICOS",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -618,74 +1710,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.5
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 89286.0,
-              "valorUnitario": 12.94
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 12.94
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "FRATERNO",
-        "modeloVersao": "PQC/ABIC",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "64106552000161",
-          "nome": "DPS GONCALVES INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Não",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 89355.0,
-              "valorUnitario": 12.95
-            },
-            "valorInformado": 12.95
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "cafe capelle/cafe capelle",
-        "modeloVersao": "pct",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "40432926000170",
-          "nome": "S. T. CAFES COMERCIO E DISTRIBUICAO LTDA",
+          "identificacao": "22262705000110",
+          "nome": "PROMOVER ASSESSORIA EM MARKETING E PUBLICIDADE LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -702,74 +1752,32 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 227630.38
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 93150.0,
-              "valorUnitario": 13.5
+              "valorTotal": 227630.38,
+              "valorUnitario": null
             },
-            "valorInformado": 13.5
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "ODEBRECHT GOLDEN/ODEBRECHT COM. IND. DE CAFE LTDA",
-        "modeloVersao": "EMBALAGEM À VÁCUO C/ 500G",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "04220523000102",
-          "nome": "JAE ILHA DESCARTAVEIS E LIMPEZA LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Não",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 166635.0,
-              "valorUnitario": 24.15
-            },
-            "valorInformado": 24.15
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 93840.0,
-              "valorUnitario": 13.6
-            },
-            "valorInformado": 13.6
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "Odebrecht/ Odebrecht Comercio Industria de Café ",
-        "modeloVersao": "EMBALAGEM 500G/ Tradicional ",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "27490179000169",
-          "nome": "RPG SOLUCOES DISTRIBUIDORA DE PRODUTOS E SERVICOS LTDA.",
+          "identificacao": "53697886000130",
+          "nome": "WORLD TURNS UNIPESSOAL LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
@@ -786,625 +1794,37 @@
         "valores": {
           "valorPropostaInicial": {
             "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
+              "valorTotal": 232746.1,
+              "valorUnitario": null
             },
-            "valorInformado": 18.59
+            "valorInformado": 232746.1
           },
           "valorPropostaInicialOuLances": {
             "valorCalculado": {
-              "valorTotal": 96600.0,
-              "valorUnitario": 14.0
+              "valorTotal": 232746.1,
+              "valorUnitario": null
             },
-            "valorInformado": 14.0
+            "valorInformado": null
           },
           "valorSugeridoNegociacao": null,
           "valorNegociado": null
         },
-        "quantidadeOfertada": 6900,
+        "quantidadeOfertada": null,
         "descricaoDetalhada": null,
         "situacao": "None",
-        "marcaFabricante": "SABADINI",
-        "modeloVersao": "TRADICIONAL",
+        "marcaFabricante": null,
+        "modeloVersao": null,
         "situacaoUltimaNegociacao": null,
         "justificativaUltimaNegociacao": null,
         "situacaoNaFaseFechadaModoAbertoFechado": null,
         "participante": {
-          "identificacao": "46041130000173",
-          "nome": "SASSARON COMERCIO E SERVICOS LTDA",
+          "identificacao": "05287117000111",
+          "nome": "K 13 CONFECCOES LTDA",
           "tipo": "Pessoa Jurídica"
         },
         "situacaoUltimaSolicitacaoAnexos": null,
         "justificativaUltimaSolicitacaoAnexos": null,
         "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 102810.0,
-              "valorUnitario": 14.9
-            },
-            "valorInformado": 14.9
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "UNIAO",
-        "modeloVersao": "C EDITAL",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "38160210000110",
-          "nome": "MIDAS PRODUTOS E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 110400.0,
-              "valorUnitario": 16.0
-            },
-            "valorInformado": 16.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CAFÉ BOM DIA ou similar ",
-        "modeloVersao": "500g",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35824741000171",
-          "nome": "FJS FORNECIMENTO DE ALIMENTOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
-            },
-            "valorInformado": 18.5
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 116955.0,
-              "valorUnitario": 16.95
-            },
-            "valorInformado": 16.95
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "MELITA/MELITTA DO BRASIL INDÚSTRIA E COMÉRCIO LTDA",
-        "modeloVersao": "Café Apresentação: torrado e moído Tipo: único Tor",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "32158362000100",
-          "nome": "INITRAM PRODUTOS ALIMENTICIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 119577.0,
-              "valorUnitario": 17.33
-            },
-            "valorInformado": 17.33
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 119577.0,
-              "valorUnitario": 17.33
-            },
-            "valorInformado": 17.33
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "KAFE VASSOURENSE",
-        "modeloVersao": "KAFE VASSOURENSE GOURMET",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "43057189000161",
-          "nome": "KAFE VASSOURENSE LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 123924.0,
-              "valorUnitario": 17.96
-            },
-            "valorInformado": 17.96
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "uniao",
-        "modeloVersao": "moido /torrado",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "28007449000109",
-          "nome": "BAR ESPETINHO TROPICAL LTDA.",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 127995.0,
-              "valorUnitario": 18.55
-            },
-            "valorInformado": 18.55
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 124062.0,
-              "valorUnitario": 17.98
-            },
-            "valorInformado": 17.98
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "UNIAO OU SIMILAR CONF TR",
-        "modeloVersao": "TRADICIONAL A VACUO OU SIMILAR CONF TR",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "51709035000135",
-          "nome": "DSMS DISTRIBUIDORA, COMERCIO E SERVICOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 124200.0,
-              "valorUnitario": 18.0
-            },
-            "valorInformado": 18.0
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 124200.0,
-              "valorUnitario": 18.0
-            },
-            "valorInformado": 18.0
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "cafe brasileiro",
-        "modeloVersao": "torrado moido",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "51578436000101",
-          "nome": "FOCCUS EMPREENDIMENTOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 127167.0,
-              "valorUnitario": 18.43
-            },
-            "valorInformado": 18.43
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "PIMPINELA/EVOLUTTO",
-        "modeloVersao": "Embalagem à vácuo com  500 g",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "05057706000103",
-          "nome": "RIOMAR 2001 DISTRIBUIDORA DE ALIMENTOS E DESCARTAVEIS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
-            },
-            "valorInformado": 18.5
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 127650.0,
-              "valorUnitario": 18.5
-            },
-            "valorInformado": 18.5
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "REGIONAL DA AMAZÔNIA",
-        "modeloVersao": "500G A VÁCUO",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "35475496000134",
-          "nome": "QUALITY COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128202.0,
-              "valorUnitario": 18.58
-            },
-            "valorInformado": 18.58
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 128202.0,
-              "valorUnitario": 18.58
-            },
-            "valorInformado": 18.58
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CAFÉ BRASILEIRO/GRUPO TRÊS CORAÇÕES",
-        "modeloVersao": "CAF´É TORRADO E MOÍDO TRADICIONAL PCT 500GR",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "06910908000119",
-          "nome": "J BRILHANTE COMERCIAL LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128270.31,
-              "valorUnitario": 18.5899
-            },
-            "valorInformado": 18.5899
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 128270.31,
-              "valorUnitario": 18.5899
-            },
-            "valorInformado": 18.5899
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "Aniolli",
-        "modeloVersao": "Café Tipo Único 100% Arábica",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "50335791000189",
-          "nome": "50.335.791 ROBSON ALVES DOS SANTOS",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "CAFÉ ODEBHRECT",
-        "modeloVersao": "SAFRA 2024",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "19371652000160",
-          "nome": "ADRIANO S MEDEIROS",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "coromandel",
-        "modeloVersao": "coromandel",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "45446296000107",
-          "nome": "CAMOR COMERCIO DE ALIMENTOS LTDA",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Sim",
-        "canalChatAberto": "Não",
-        "dataHoraLimiteAtendimento": null,
-        "motivoDesclassificacao": null,
-        "situacaoNaDisputaFinal": null,
-        "situacaoNoDesempateMeEpp": null,
-        "empatadoComoMelhorClassificado": null
-      },
-      {
-        "valores": {
-          "valorPropostaInicial": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorPropostaInicialOuLances": {
-            "valorCalculado": {
-              "valorTotal": 128271.0,
-              "valorUnitario": 18.59
-            },
-            "valorInformado": 18.59
-          },
-          "valorSugeridoNegociacao": null,
-          "valorNegociado": null
-        },
-        "quantidadeOfertada": 6900,
-        "descricaoDetalhada": null,
-        "situacao": "None",
-        "marcaFabricante": "3 CORAÇÕES FORT/CAFE TRES CORAÇÕES SA",
-        "modeloVersao": "PCT 500G VÁCUO",
-        "situacaoUltimaNegociacao": null,
-        "justificativaUltimaNegociacao": null,
-        "situacaoNaFaseFechadaModoAbertoFechado": null,
-        "participante": {
-          "identificacao": "17467515000107",
-          "nome": "CAFE TRES CORACOES S.A",
-          "tipo": "Pessoa Jurídica"
-        },
-        "situacaoUltimaSolicitacaoAnexos": null,
-        "justificativaUltimaSolicitacaoAnexos": null,
-        "declaracaoMeEpp": "Não",
         "canalChatAberto": "Não",
         "dataHoraLimiteAtendimento": null,
         "motivoDesclassificacao": null,
@@ -1413,6 +1833,2539 @@
         "empatadoComoMelhorClassificado": null
       }
     ],
-    "subItens": null
+    "subItens": [
+      {
+        "numero": 1,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "1",
+        "descricao": "Camisa uniforme",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 35.71,
+        "valorEstimadoTotal": 34210.18,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33530.0,
+                  "valorUnitario": 35.0
+                },
+                "valorInformado": 35.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 11496.0,
+                  "valorUnitario": 12.0
+                },
+                "valorInformado": 12.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "blusa gola v",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34200.6,
+                  "valorUnitario": 35.7
+                },
+                "valorInformado": 35.7
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 34200.6,
+                  "valorUnitario": 35.7
+                },
+                "valorInformado": 35.7
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta desclassificada",
+            "marcaFabricante": "UREIAH",
+            "modeloVersao": "CAMISA MALHA PV",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "43410748000175",
+              "nome": "43.410.748 LEANDRO CARDOSO DE SOUZA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34210.18,
+                  "valorUnitario": 35.71
+                },
+                "valorInformado": 35.71
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 13412.0,
+                  "valorUnitario": 14.0
+                },
+                "valorInformado": 14.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34210.18,
+                  "valorUnitario": 35.71
+                },
+                "valorInformado": 35.71
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 12406.1,
+                  "valorUnitario": 12.95
+                },
+                "valorInformado": 12.95
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33185.12,
+                  "valorUnitario": 34.64
+                },
+                "valorInformado": 34.64
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14101.76,
+                  "valorUnitario": 14.72
+                },
+                "valorInformado": 14.72
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34200.6,
+                  "valorUnitario": 35.7
+                },
+                "valorInformado": 35.7
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16860.8,
+                  "valorUnitario": 17.6
+                },
+                "valorInformado": 17.6
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Camisa de Uniforme Escolar",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34210.18,
+                  "valorUnitario": 35.71
+                },
+                "valorInformado": 35.71
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 18202.0,
+                  "valorUnitario": 19.0
+                },
+                "valorInformado": 19.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34210.18,
+                  "valorUnitario": 35.71
+                },
+                "valorInformado": 35.71
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 15356.74,
+                  "valorUnitario": 16.03
+                },
+                "valorInformado": 16.03
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Camisa uniforme - Camisa Uniforme Material: 100% Algodao , Tipo Manga: Curta Com Punho Em Acabamento Retilinea , Tipo Colarinho: Em V Com Acabamento De Retilinea , Tamanho: Pp, P, M, G, Gg, Exg E G2 , Tipo Uso: Uniforme , Características Adicionais: Conforme Modelo Encaminhado Pelo Orgao , Tipo Camisa: Uniforme Escolar",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Camisa Escolar Branca Unissex",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33530.0,
+                  "valorUnitario": 35.0
+                },
+                "valorInformado": 35.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL/O .J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "CAMISA ",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34210.18,
+                  "valorUnitario": 35.71
+                },
+                "valorInformado": 35.71
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      },
+      {
+        "numero": 2,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "2",
+        "descricao": "Camisa uniforme",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 37.34,
+        "valorEstimadoTotal": 35771.72,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33530.0,
+                  "valorUnitario": 35.0
+                },
+                "valorInformado": 35.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 11496.0,
+                  "valorUnitario": 12.0
+                },
+                "valorInformado": 12.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "blusa gola v",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta desclassificada",
+            "marcaFabricante": "URIAH",
+            "modeloVersao": "CAMISETA MALHA PV",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "43410748000175",
+              "nome": "43.410.748 LEANDRO CARDOSO DE SOUZA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14082.6,
+                  "valorUnitario": 14.7
+                },
+                "valorInformado": 14.7
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 12406.1,
+                  "valorUnitario": 12.95
+                },
+                "valorInformado": 12.95
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34698.76,
+                  "valorUnitario": 36.22
+                },
+                "valorInformado": 36.22
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14101.76,
+                  "valorUnitario": 14.72
+                },
+                "valorInformado": 14.72
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35733.4,
+                  "valorUnitario": 37.3
+                },
+                "valorInformado": 37.3
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16860.8,
+                  "valorUnitario": 17.6
+                },
+                "valorInformado": 17.6
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Camisa de Uniforme Escolar",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 18202.0,
+                  "valorUnitario": 19.0
+                },
+                "valorInformado": 19.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16803.32,
+                  "valorUnitario": 17.54
+                },
+                "valorInformado": 17.54
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Camisa uniforme - Camisa Uniforme Material: 100% Algodao , Tipo Manga: Curta Com Punho Em Acabamento Retilinea , Tipo Colarinho: Em V Com Acabamento De Retilinea , Tamanho: Pp, P, M, G, Gg, Exg E G2 , Tipo Uso: Uniforme , Características Adicionais: Conforme Modelo Encaminhado Pelo Orgao , Tipo Camisa: Uniforme Escolar",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Camisa Escolar Azul Unisex",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35446.0,
+                  "valorUnitario": 37.0
+                },
+                "valorInformado": 37.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL/O.J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "CAMISA",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 35771.72,
+                  "valorUnitario": 37.34
+                },
+                "valorInformado": 37.34
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      },
+      {
+        "numero": 3,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "3",
+        "descricao": "Camisa uniforme",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 35.67,
+        "valorEstimadoTotal": 34171.86,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 335300.0,
+                  "valorUnitario": 350.0
+                },
+                "valorInformado": 350.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 11496.0,
+                  "valorUnitario": 12.0
+                },
+                "valorInformado": 12.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "blusa gola v",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34171.86,
+                  "valorUnitario": 35.67
+                },
+                "valorInformado": 35.67
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14082.6,
+                  "valorUnitario": 14.7
+                },
+                "valorInformado": 14.7
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34171.86,
+                  "valorUnitario": 35.67
+                },
+                "valorInformado": 35.67
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 12406.1,
+                  "valorUnitario": 12.95
+                },
+                "valorInformado": 12.95
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33146.8,
+                  "valorUnitario": 34.6
+                },
+                "valorInformado": 34.6
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14101.76,
+                  "valorUnitario": 14.72
+                },
+                "valorInformado": 14.72
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34152.7,
+                  "valorUnitario": 35.65
+                },
+                "valorInformado": 35.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16860.8,
+                  "valorUnitario": 17.6
+                },
+                "valorInformado": 17.6
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Camisa de Uniforme Escolar",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34171.86,
+                  "valorUnitario": 35.67
+                },
+                "valorInformado": 35.67
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 15328.0,
+                  "valorUnitario": 16.0
+                },
+                "valorInformado": 16.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34171.86,
+                  "valorUnitario": 35.67
+                },
+                "valorInformado": 35.67
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 15270.52,
+                  "valorUnitario": 15.94
+                },
+                "valorInformado": 15.94
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Camisa uniforme - Camisa Uniforme Material: 67% Poliéster E 33% Algodão , Tipo Manga: Comprida , Tipo Colarinho: Entretelado , Tamanho: Sob Medida , Tipo Uso: Administrativo , Características Adicionais: Sem Bolso , Tipo Camisa: Social",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Regata Escolar Azul Unissex",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33530.0,
+                  "valorUnitario": 35.0
+                },
+                "valorInformado": 35.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL/O.J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "CAMISA",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 34171.86,
+                  "valorUnitario": 35.67
+                },
+                "valorInformado": 35.67
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      },
+      {
+        "numero": 4,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "4",
+        "descricao": "Short Feminino",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 44.93,
+        "valorEstimadoTotal": 43042.94,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 38320.0,
+                  "valorUnitario": 40.0
+                },
+                "valorInformado": 40.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 11496.0,
+                  "valorUnitario": 12.0
+                },
+                "valorInformado": 12.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "short  femenino",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43042.94,
+                  "valorUnitario": 44.93
+                },
+                "valorInformado": 44.93
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14370.0,
+                  "valorUnitario": 15.0
+                },
+                "valorInformado": 15.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43042.94,
+                  "valorUnitario": 44.93
+                },
+                "valorInformado": 44.93
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 12406.1,
+                  "valorUnitario": 12.95
+                },
+                "valorInformado": 12.95
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 41749.64,
+                  "valorUnitario": 43.58
+                },
+                "valorInformado": 43.58
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 20568.26,
+                  "valorUnitario": 21.47
+                },
+                "valorInformado": 21.47
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43014.2,
+                  "valorUnitario": 44.9
+                },
+                "valorInformado": 44.9
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 18681.0,
+                  "valorUnitario": 19.5
+                },
+                "valorInformado": 19.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Bermuda Escolar Feminina",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43042.94,
+                  "valorUnitario": 44.93
+                },
+                "valorInformado": 44.93
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19160.0,
+                  "valorUnitario": 20.0
+                },
+                "valorInformado": 20.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43042.94,
+                  "valorUnitario": 44.93
+                },
+                "valorInformado": 44.93
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 21018.52,
+                  "valorUnitario": 21.94
+                },
+                "valorInformado": 21.94
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Short Feminino - Short Feminino Cor: Azul E Laranja , Material: Helanca 85% Poliéster E 15% Algodão , Tamanho: Sob Medida , Padronagem Tecido: Estampa Em Silk Screen , Características Adicionais: Short-Saia Com Elástico Na Cintura , Aplicação: Uniforme",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Bermuda Escolar Feminina Cotton Lycra Preta",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42152.0,
+                  "valorUnitario": 44.0
+                },
+                "valorInformado": 44.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19639.0,
+                  "valorUnitario": 20.5
+                },
+                "valorInformado": 20.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL/O.J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "SHORT FEMININO",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 43042.94,
+                  "valorUnitario": 44.93
+                },
+                "valorInformado": 44.93
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 21555.0,
+                  "valorUnitario": 22.5
+                },
+                "valorInformado": 22.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      },
+      {
+        "numero": 5,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "5",
+        "descricao": "Short Feminino",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 44.65,
+        "valorEstimadoTotal": 42774.7,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 38320.0,
+                  "valorUnitario": 40.0
+                },
+                "valorInformado": 40.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 11496.0,
+                  "valorUnitario": 12.0
+                },
+                "valorInformado": 12.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "short  femenino",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42774.7,
+                  "valorUnitario": 44.65
+                },
+                "valorInformado": 44.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 14370.0,
+                  "valorUnitario": 15.0
+                },
+                "valorInformado": 15.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42774.7,
+                  "valorUnitario": 44.65
+                },
+                "valorInformado": 44.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16238.1,
+                  "valorUnitario": 16.95
+                },
+                "valorInformado": 16.95
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 41490.98,
+                  "valorUnitario": 43.31
+                },
+                "valorInformado": 43.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 20568.26,
+                  "valorUnitario": 21.47
+                },
+                "valorInformado": 21.47
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42726.8,
+                  "valorUnitario": 44.6
+                },
+                "valorInformado": 44.6
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 18681.0,
+                  "valorUnitario": 19.5
+                },
+                "valorInformado": 19.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Bermuda Escolar Feminina",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42774.7,
+                  "valorUnitario": 44.65
+                },
+                "valorInformado": 44.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19160.0,
+                  "valorUnitario": 20.0
+                },
+                "valorInformado": 20.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42774.7,
+                  "valorUnitario": 44.65
+                },
+                "valorInformado": 44.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 23988.32,
+                  "valorUnitario": 25.04
+                },
+                "valorInformado": 25.04
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Short Feminino - Short Feminino Cor: Azul E Laranja , Material: Helanca 85% Poliéster E 15% Algodão , Tamanho: Sob Medida , Padronagem Tecido: Estampa Em Silk Screen , Características Adicionais: Short-Saia Com Elástico Na Cintura , Aplicação: Uniforme",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Bermuda Escolar Feminina Cotton Lycra Azul",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42152.0,
+                  "valorUnitario": 44.0
+                },
+                "valorInformado": 44.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19639.0,
+                  "valorUnitario": 20.5
+                },
+                "valorInformado": 20.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL /O.J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "SHORT FEMININO",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 42774.7,
+                  "valorUnitario": 44.65
+                },
+                "valorInformado": 44.65
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 21555.0,
+                  "valorUnitario": 22.5
+                },
+                "valorInformado": 22.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      },
+      {
+        "numero": 6,
+        "tipo": "Subitem",
+        "disputaPorValorUnitario": "Sim",
+        "possuiOrcamentoSigiloso": "Não",
+        "identificador": "6",
+        "descricao": "Calção",
+        "criterioJulgamento": "Menor Preço",
+        "homologado": "Sim",
+        "situacaoEnvioResultado": "None",
+        "numeroSessaoJulgHab": 1,
+        "tipoTratamentoDiferenciadoMeEpp": "Nenhum",
+        "participacaoExclusivaMeEppOuEquiparadas": "Não",
+        "situacao": "Ativo",
+        "fase": "Adjudicação encerrada",
+        "quantidadeSolicitada": 958,
+        "criterioValor": "Valor estimado",
+        "valorEstimado": null,
+        "valorEstimadoUnitario": 39.31,
+        "valorEstimadoTotal": 37658.98,
+        "priorizarAbertura": "Não",
+        "julgHabEncerrada": "Sim",
+        "qtdeItensDoGrupo": null,
+        "qtdeAceitaSrp": null,
+        "qtdeAdjudicadaSrp": null,
+        "prazosFaseRecursal": null,
+        "propostasItem": [
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 33530.0,
+                  "valorUnitario": 35.0
+                },
+                "valorInformado": 35.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 12454.0,
+                  "valorUnitario": 13.0
+                },
+                "valorInformado": 13.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "Proposta adjudicada",
+            "marcaFabricante": "king crown",
+            "modeloVersao": "short mascolino",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29769374000158",
+              "nome": "KING CROWN LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 16630.88,
+                  "valorUnitario": 17.36
+                },
+                "valorInformado": 17.36
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "SAP",
+            "modeloVersao": "SAP",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "29613651000139",
+              "nome": "CONFIANTE ANDRADE COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "GENIUS",
+            "modeloVersao": "GENIUS",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "48723144000100",
+              "nome": "GENIUS MODAS E UNIFORMES LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 36528.54,
+                  "valorUnitario": 38.13
+                },
+                "valorInformado": 38.13
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 21861.56,
+                  "valorUnitario": 22.82
+                },
+                "valorInformado": 22.82
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "PRÓPRIA",
+            "modeloVersao": "UNIDADE",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "19932323000141",
+              "nome": "SHERIDAN RIO COMERCIO E SERVICOS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37649.4,
+                  "valorUnitario": 39.3
+                },
+                "valorInformado": 39.3
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 18681.0,
+                  "valorUnitario": 19.5
+                },
+                "valorInformado": 19.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "RAFISA",
+            "modeloVersao": "Bermuda Escolar Masculina",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "08046001000189",
+              "nome": "RAFISA COMERCIO DE ROUPAS E ACESSORIOS LTDA.",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19160.0,
+                  "valorUnitario": 20.0
+                },
+                "valorInformado": 20.0
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "UNIFORMIX",
+            "modeloVersao": "UNIFORMIX",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "36112657000198",
+              "nome": "PROMIX COMERCIAL LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17291.9,
+                  "valorUnitario": 18.05
+                },
+                "valorInformado": 18.05
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": "Calção - Calção Material: Poliamida E Elastano , Cor: Preta , Tamanho: Sob Medida , Características Adicionais: Conforme Modelo",
+            "situacao": "None",
+            "marcaFabricante": "PLAYPRO",
+            "modeloVersao": "Bermuda Escolar Masculina Tactel com elástico na c",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14103697000130",
+              "nome": "TF LIMA PLAY 2 SPORTS LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37362.0,
+                  "valorUnitario": 39.0
+                },
+                "valorInformado": 39.0
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 19064.2,
+                  "valorUnitario": 19.9
+                },
+                "valorInformado": 19.9
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "ESBRASIL/ O. J DO NASCIMENTO UNIFORMES",
+            "modeloVersao": "CALÇAO",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "14960635000145",
+              "nome": "O.J. DO NASCIMENTO - UNIFORMES",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          },
+          {
+            "valores": {
+              "valorPropostaInicial": {
+                "valorCalculado": {
+                  "valorTotal": 37658.98,
+                  "valorUnitario": 39.31
+                },
+                "valorInformado": 39.31
+              },
+              "valorPropostaInicialOuLances": {
+                "valorCalculado": {
+                  "valorTotal": 17723.0,
+                  "valorUnitario": 18.5
+                },
+                "valorInformado": 18.5
+              },
+              "valorSugeridoNegociacao": null,
+              "valorNegociado": null
+            },
+            "quantidadeOfertada": 958,
+            "descricaoDetalhada": null,
+            "situacao": "None",
+            "marcaFabricante": "propria",
+            "modeloVersao": "propria",
+            "situacaoUltimaNegociacao": null,
+            "justificativaUltimaNegociacao": null,
+            "situacaoNaFaseFechadaModoAbertoFechado": null,
+            "participante": {
+              "identificacao": "18078753000185",
+              "nome": "COMERCIAL E SERVICOS SAO CRISTOVAO LTDA",
+              "tipo": "Pessoa Jurídica"
+            },
+            "situacaoUltimaSolicitacaoAnexos": null,
+            "justificativaUltimaSolicitacaoAnexos": null,
+            "declaracaoMeEpp": "Sim",
+            "canalChatAberto": "Não",
+            "dataHoraLimiteAtendimento": null,
+            "motivoDesclassificacao": null,
+            "situacaoNaDisputaFinal": null,
+            "situacaoNoDesempateMeEpp": null,
+            "empatadoComoMelhorClassificado": false
+          }
+        ],
+        "subItens": null
+      }
+    ]
   }
 ]

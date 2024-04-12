@@ -106,7 +106,12 @@ async def custom_route_handler(route, json_captured, page, dados, status):
                 status.actual_item = json_data['numero']
                 json_data.update( {'subItens': []} )
                 dados.propostas.append(json_data)
-                status.companys_to_capture += len(json_data['propostasItem'])
+
+                if len(json_data['propostasItem']) > 10:
+                    status.companys_to_capture = 10
+                else:
+                    status.companys_to_capture = len(json_data['propostasItem'])
+
                 print(f'Quantidade de participantes do grupo: {status.companys_to_capture}')
                 await page.evaluate('getGrupoPropostas();')
 
@@ -137,7 +142,7 @@ async def fazer_requisicao(dados, browser, url, semaforo):
 
         @dataclass
         class Status:
-            companys_to_capture = 0
+            companys_to_capture = None
             companys_captured = 0
             actual_item = None
             isFirstJsonGroup = True
