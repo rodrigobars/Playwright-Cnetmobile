@@ -12,7 +12,8 @@ async def trigger(compra_numero: str):
     response = {
         'compra': dados.compra,
         'itens': dados.itens,
-        'propostas': dados.propostas
+        'propostas': dados.propostas,
+        'itensDetalhados': dados.itensDetalhados
     }
     
     import json
@@ -24,5 +25,8 @@ async def trigger(compra_numero: str):
         
     with open('examples/latest/compra.json', 'w', encoding='utf-8') as json_file:
         json.dump(dados.compra, json_file, indent=2, ensure_ascii=False)
+
+    with open('examples/latest/itensDetalhados.json', 'w', encoding='utf-8') as json_file:
+        json.dump(dados.itensDetalhados, json_file, indent=2, ensure_ascii=False)
 
     return response

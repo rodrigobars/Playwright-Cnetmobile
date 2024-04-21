@@ -15,6 +15,7 @@ class CnetMobile:
     enum: Dict[str, Any] = field(default_factory=dict)
     itens: List[Dict[str, Any]] = field(default_factory=list)
     propostas: List[Dict[str, Any]] = field(default_factory=list)
+    itensDetalhados: Dict[int, Dict[str, str]] = field(default_factory=dict)
     compra_collected: bool = False
     enum_collected: bool = False
     
@@ -31,10 +32,10 @@ async def on_message(msg):
 
 async def on_block(msg, page, url):
     if msg['type'] == 'blocked':
-        print("BloqueadoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO, reiniciando...")
+        print("blocked...")
         await page.goto(url)
 
-async def custom_route_handler(route, json_captured, page, dados, status):
+async def custom_route_handler(route, json_captured, page, dados, status, paginaCnetmobile):
     url = route.request.url
     parsed_url = urlparse(url)
     last_path = parsed_url.path.split('/')[-1]
@@ -48,7 +49,7 @@ async def custom_route_handler(route, json_captured, page, dados, status):
         # Modifica os parâmetros conforme necessário
         if 'tamanhoPagina' in query_parameters.keys():
             query_parameters['tamanhoPagina'] = ['50']
-            query_parameters['pagina'] = ['0']
+            query_parameters['pagina'] = [paginaCnetmobile]
 
             # Atualiza a URL com os parâmetros modificados
             url = parsed_url._replace(query=urlencode(query_parameters, doseq=True)).geturl()
@@ -69,17 +70,31 @@ async def custom_route_handler(route, json_captured, page, dados, status):
         await route.fulfill(response=response, json=json_data)
             
         if 'itens' == last_path:
-            dados.itens = json_data
-            json_captured.set()
+            if json_data:
+                status.broughtData = True
+                dados.itens += json_data
+
+                print('qtf itens: ',len(json_data))
+
+                for item in json_data:
+                    if item['tipo'] == 'G':
+                        status.soma += json_data['qtdeItensDoGrupo']
+                    else:
+                        status.soma += 1
+
+                await page.evaluate('getItemsDetails();')
+
+            else:
+                json_captured.set()
             
         elif 'propostas' == last_path:
             if 'itens-grupo' == second_last_path:
                 
                 status.companys_captured += 1
-                print(f'Quantidade de participantes capturados: {status.companys_captured}')
 
                 if status.isFirstJsonGroup:
                     
+                    # Colocando a proposta numa lista
                     for dicionario in json_data:
                         dicionario.update( { 'propostaItem': [dicionario.pop('propostaItem')] } )
 
@@ -88,39 +103,54 @@ async def custom_route_handler(route, json_captured, page, dados, status):
                             proposta['subItens'] += json_data
                                 
                     status.isFirstJsonGroup = False
+                    print(f"Participantes capturados: {status.companys_captured}")
 
                 else:
 
                     for proposta in dados.propostas:
                         if proposta['numero'] == status.actual_item:
+                            print(f"Grupo: {proposta['identificador']} | Participantes capturados: {status.companys_captured}")
                             for subItem in proposta['subItens']:
                                 for dicionario in json_data:
                                     if subItem['numero'] == dicionario['numero']:
                                        subItem['propostaItem'].append(dicionario.pop('propostaItem'))
 
-                    if status.companys_captured == status.companys_to_capture:
-                        print('\nquantidade de propostas do grupo concluída')
-                        json_captured.set()
+                if status.companys_captured == status.companys_to_capture:
+                    print(f"\nQuantidade de propostas do grupo concluída")
+                    json_captured.set()
 
             elif json_data['tipo'] == 'G':
                 status.actual_item = json_data['numero']
                 json_data.update( {'subItens': []} )
                 dados.propostas.append(json_data)
 
-                if len(json_data['propostasItem']) > 10:
-                    status.companys_to_capture = 10
+                if len(json_data['propostasItem']) > 5:
+                    status.companys_to_capture = 5
                 else:
                     status.companys_to_capture = len(json_data['propostasItem'])
 
-                print(f'Quantidade de participantes do grupo: {status.companys_to_capture}')
+                print(f"Grupo: {json_data['identificador']} | Participantes: {status.companys_to_capture}")
                 await page.evaluate('getGrupoPropostas();')
 
             else:
                 dados.propostas.append(json_data)
                 json_captured.set()
+
+        elif last_path == 'detalhamento' and int(second_last_path) > 0:
+
+            dados.itensDetalhados.update(
+                {
+                    json_data['numero'] : {
+                        'unidadeFornecimento' : json_data['unidadeFornecimento'],
+                        'descricaoDetalhada': json_data['descricaoDetalhada']
+                    }
+                }
+            )
+            status.soma -= 1
+            if status.soma == 0:
+                json_captured.set()
             
         else:
-            print("UASG [COMPRA]")
             if not dados.compra_collected:
                 dados.compra = json_data
                 dados.compra_collected = True
@@ -136,7 +166,7 @@ async def custom_route_handler(route, json_captured, page, dados, status):
     else:
         await route.continue_()
 
-async def fazer_requisicao(dados, browser, url, semaforo):
+async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
     async with semaforo:
         json_captured = asyncio.Event()
 
@@ -146,6 +176,9 @@ async def fazer_requisicao(dados, browser, url, semaforo):
             companys_captured = 0
             actual_item = None
             isFirstJsonGroup = True
+            broughtData = False
+            data = None
+            soma = 0
 
         status = Status()
 
@@ -160,7 +193,7 @@ async def fazer_requisicao(dados, browser, url, semaforo):
         # Defina a função para ser executada quando a página recarregar
         await page.expose_function('ping_block', lambda msg: on_block(msg, page, url))
         
-        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, page, dados, status))
+        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, page, dados, status, paginaCnetmobile))
         await page.goto(url)
         print(f'Iniciando a requisição: {url}')
 
@@ -168,6 +201,7 @@ async def fazer_requisicao(dados, browser, url, semaforo):
 
         await page.close()
         await context.close()
+    return status.broughtData
         
 def mount_urls(url_base, compra_numero, lista_itens):
     urls = []
@@ -187,9 +221,29 @@ async def main(dados, compra_numero):
     
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=False)
-        
-        await fazer_requisicao(dados, browser, url_itens, semaforo)
-        
+
+        n = 4
+        itensPageCnetmobile = list(range(n))
+        while itensPageCnetmobile:
+            tasks = []
+            for itemPage in itensPageCnetmobile:
+                task = asyncio.ensure_future(fazer_requisicao(dados, browser, url_itens, semaforo, paginaCnetmobile=itemPage))
+                tasks.append(task)
+            results = await asyncio.gather(*tasks)
+            print(f'Resultados da requisição: {results}')
+
+            for index, result in enumerate(results):
+                if result:
+                    itensPageCnetmobile[index] += n
+                else:
+                    if index==0:
+                        itensPageCnetmobile = []
+                        break
+                    else:
+                        itensPageCnetmobile = itensPageCnetmobile[0:index]
+                        break
+                print(itensPageCnetmobile)
+
         print(dados.itens, '\n')
         
         for item in dados.itens:
