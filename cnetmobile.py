@@ -7,7 +7,6 @@ from Enum_classes.Enum import Enum
 from Enum_classes.Itens import Itens
 from Enum_classes.Propostas import Propostas
 from Enum_classes.Compra import Compra
-from pprint import pprint
 
 @dataclass
 class CnetMobile:
@@ -48,7 +47,7 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
 
         # Modifica os parâmetros conforme necessário
         if 'tamanhoPagina' in query_parameters.keys():
-            query_parameters['tamanhoPagina'] = ['50']
+            query_parameters['tamanhoPagina'] = ['20']
             query_parameters['pagina'] = [paginaCnetmobile]
 
             # Atualiza a URL com os parâmetros modificados
@@ -74,11 +73,12 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
                 status.broughtData = True
                 dados.itens += json_data
 
-                print('qtf itens: ',len(json_data))
+                print('qtf itens da página: ',len(json_data))
 
                 for item in json_data:
                     if item['tipo'] == 'G':
-                        status.soma += json_data['qtdeItensDoGrupo']
+                        print("Quantidade de itens do grupo: ", item['qtdeItensDoGrupo'])
+                        status.soma += int(item['qtdeItensDoGrupo'])
                     else:
                         status.soma += 1
 
@@ -222,7 +222,7 @@ async def main(dados, compra_numero):
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=False)
 
-        n = 4
+        n = 1
         itensPageCnetmobile = list(range(n))
         while itensPageCnetmobile:
             tasks = []
