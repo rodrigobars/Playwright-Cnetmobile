@@ -15,7 +15,6 @@ class CnetMobile:
     enum: Dict[str, Any] = field(default_factory=dict)
     itens: List[Dict[str, Any]] = field(default_factory=list)
     propostas: List[Dict[str, Any]] = field(default_factory=list)
-    itensDetalhados: Dict[int, Dict[str, str]] = field(default_factory=dict)
     compra_collected: bool = False
     enum_collected: bool = False
     
@@ -48,7 +47,7 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
 
         # Modifica os parâmetros conforme necessário
         if 'tamanhoPagina' in query_parameters.keys():
-            query_parameters['tamanhoPagina'] = ['50']
+            query_parameters['tamanhoPagina'] = ['20']
             query_parameters['pagina'] = [paginaCnetmobile]
 
             # Atualiza a URL com os parâmetros modificados
@@ -71,83 +70,59 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
             
         if 'itens' == last_path:
             if json_data:
-                status.broughtData = True
+                status.qtdItens = len(json_data)
                 dados.itens += json_data
 
-                print('qtf itens: ',len(json_data))
-
-                for item in json_data:
-                    if item['tipo'] == 'G':
-                        status.soma += json_data['qtdeItensDoGrupo']
-                    else:
-                        status.soma += 1
-
-                await page.evaluate('getItemsDetails();')
-
-            else:
                 json_captured.set()
+            else:
+                status.qtdItens = 0
+                json_captured.set()
+            print('qtf itens: ',len(json_data))
             
         elif 'propostas' == last_path:
             if 'itens-grupo' == second_last_path:
                 
                 status.companys_captured += 1
 
-                if status.isFirstJsonGroup:
-                    
-                    # Colocando a proposta numa lista
-                    for dicionario in json_data:
-                        dicionario.update( { 'propostaItem': [dicionario.pop('propostaItem')] } )
-
-                    for proposta in dados.propostas:
-                        if proposta['numero'] == status.actual_item:
-                            proposta['subItens'] += json_data
-                                
-                    status.isFirstJsonGroup = False
-                    print(f"Participantes capturados: {status.companys_captured}")
-
-                else:
-
-                    for proposta in dados.propostas:
-                        if proposta['numero'] == status.actual_item:
-                            print(f"Grupo: {proposta['identificador']} | Participantes capturados: {status.companys_captured}")
-                            for subItem in proposta['subItens']:
-                                for dicionario in json_data:
-                                    if subItem['numero'] == dicionario['numero']:
-                                       subItem['propostaItem'].append(dicionario.pop('propostaItem'))
+                for item in json_data:
+                    if item['numero'] not in status.item_propostas:
+                        proposta = item.pop('propostaItem')
+                        status.item_propostas.update({item['numero']: [proposta]})
+                        status.item_conteudo.update({item['numero']: item})
+                    else:
+                        status.item_propostas[item['numero']].append(item['propostaItem'])
 
                 if status.companys_captured == status.companys_to_capture:
                     print(f"\nQuantidade de propostas do grupo concluída")
+                    for key, value in status.item_conteudo.items():
+                        value.update({'propostasItem': status.item_propostas[key]})
+
+                    for proposta in dados.propostas:
+                        if proposta['numero'] == status.actual_item:
+                            proposta['subItens'] += [item for item in status.item_conteudo.values()]
+
                     json_captured.set()
 
             elif json_data['tipo'] == 'G':
                 status.actual_item = json_data['numero']
+                status.qtdeItensDoGrupo = json_data['qtdeItensDoGrupo']
                 json_data.update( {'subItens': []} )
                 dados.propostas.append(json_data)
 
-                if len(json_data['propostasItem']) > 5:
-                    status.companys_to_capture = 5
+                if len(json_data['propostasItem']) > 15:
+                    status.companys_to_capture = 15
                 else:
                     status.companys_to_capture = len(json_data['propostasItem'])
 
                 print(f"Grupo: {json_data['identificador']} | Participantes: {status.companys_to_capture}")
-                await page.evaluate('getGrupoPropostas();')
+
+                if status.companys_to_capture > 0:
+                    await page.evaluate('getGrupoPropostas();')
+                else:
+                    json_captured.set()
 
             else:
                 dados.propostas.append(json_data)
-                json_captured.set()
-
-        elif last_path == 'detalhamento' and int(second_last_path) > 0:
-
-            dados.itensDetalhados.update(
-                {
-                    json_data['numero'] : {
-                        'unidadeFornecimento' : json_data['unidadeFornecimento'],
-                        'descricaoDetalhada': json_data['descricaoDetalhada']
-                    }
-                }
-            )
-            status.soma -= 1
-            if status.soma == 0:
                 json_captured.set()
             
         else:
@@ -178,7 +153,10 @@ async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
             isFirstJsonGroup = True
             broughtData = False
             data = None
-            soma = 0
+            qtdItens = 0
+            qtdeItensDoGrupo = 0
+            item_propostas = {}
+            item_conteudo = {}
 
         status = Status()
 
@@ -201,7 +179,7 @@ async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
 
         await page.close()
         await context.close()
-    return status.broughtData
+    return status.qtdItens
         
 def mount_urls(url_base, compra_numero, lista_itens):
     urls = []
@@ -212,7 +190,7 @@ def mount_urls(url_base, compra_numero, lista_itens):
 
 async def main(dados, compra_numero):
     # Número máximo de requisições simultâneas
-    limite_simultaneo = 5
+    limite_simultaneo = 4
     semaforo = asyncio.Semaphore(limite_simultaneo)
     
     #compra_numero = linkSistemaOrigem.split("compra=")[1]
@@ -222,7 +200,7 @@ async def main(dados, compra_numero):
     async with async_playwright() as p:
         browser = await p.firefox.launch(headless=False)
 
-        n = 4
+        n = 3
         itensPageCnetmobile = list(range(n))
         while itensPageCnetmobile:
             tasks = []
@@ -232,17 +210,10 @@ async def main(dados, compra_numero):
             results = await asyncio.gather(*tasks)
             print(f'Resultados da requisição: {results}')
 
-            for index, result in enumerate(results):
-                if result:
-                    itensPageCnetmobile[index] += n
-                else:
-                    if index==0:
-                        itensPageCnetmobile = []
-                        break
-                    else:
-                        itensPageCnetmobile = itensPageCnetmobile[0:index]
-                        break
-                print(itensPageCnetmobile)
+            if sum(results) < 60:
+                break
+            else:
+                itensPageCnetmobile = [n + x for x in itensPageCnetmobile]
 
         print(dados.itens, '\n')
         
