@@ -8,14 +8,14 @@ const getGrupoPropostas = async () => {
         const buttonsProposta = Array.from(document.querySelectorAll('button'))
             .filter(el => el.textContent === 'Proposta');
         
-        let delay = 1000;
+        let delay = 5000;
 
         // Loop para clicar nos botões com delay individual
         for (const button of buttonsProposta) {
             setTimeout(() => {
                 button.click();
             }, delay);
-            delay += 2000
+            delay += 5000
         }
     }, 100);
 

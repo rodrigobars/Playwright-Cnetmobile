@@ -7,7 +7,7 @@ from Enum_classes.Enum import Enum
 from Enum_classes.Itens import Itens
 from Enum_classes.Propostas import Propostas
 from Enum_classes.Compra import Compra
-from pprint import pprint
+import requests
 
 @dataclass
 class CnetMobile:
@@ -34,7 +34,7 @@ async def on_block(msg, page, url):
         print("blocked...")
         await page.goto(url)
 
-async def custom_route_handler(route, json_captured, page, dados, status, paginaCnetmobile):
+async def custom_route_handler(route, json_captured, page, dados, status, grupos_itens, paginaCnetmobile):
     url = route.request.url
     parsed_url = urlparse(url)
     last_path = parsed_url.path.split('/')[-1]
@@ -88,18 +88,20 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
                     if item['numero'] not in status.item_propostas:
                         proposta = item.pop('propostaItem')
                         status.item_propostas.update({item['numero']: [proposta]})
-                        status.item_conteudo.update({item['numero']: item})
                     else:
                         status.item_propostas[item['numero']].append(item['propostaItem'])
 
                 if status.companys_captured == status.companys_to_capture:
                     print(f"\nQuantidade de propostas do grupo concluída")
-                    for key, value in status.item_conteudo.items():
-                        value.update({'propostasItem': status.item_propostas[key]})
+                    # for key, value in status.item_propostas.items():
+                    #     value.update({'propostasItem': status.item_propostas[key]})
 
                     for proposta in dados.propostas:
                         if proposta['numero'] == status.actual_item:
-                            proposta['subItens'] += [item for item in status.item_conteudo.values()]
+                            lista_itens_encontrados = list(status.item_propostas.keys())
+                            for propostaSubitem in proposta['subItens']:
+                                if propostaSubitem['numero'] in lista_itens_encontrados:
+                                    propostaSubitem['propostasItem'] += status.item_propostas[propostaSubitem['numero']]
 
                     json_captured.set()
 
@@ -107,7 +109,10 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
                 status.actual_item = json_data['numero']
                 status.qtdeItensDoGrupo = json_data['qtdeItensDoGrupo']
                 json_data.update( {'subItens': []} )
-                dados.propostas.append(json_data)
+                #dados.propostas.append(json_data)
+
+                itensGrupoAtual = grupos_itens[status.actual_item]
+                # dicionario_de_itens = {item["numero"]: item for item in itensGrupoAtual}
 
                 if len(json_data['propostasItem']) > 15:
                     status.companys_to_capture = 15
@@ -115,6 +120,11 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
                     status.companys_to_capture = len(json_data['propostasItem'])
 
                 print(f"Grupo: {json_data['identificador']} | Participantes: {status.companys_to_capture}")
+
+                for item in itensGrupoAtual:
+                    item['propostasItem'] = []
+                json_data['subItens'] += itensGrupoAtual
+                dados.propostas.append(json_data)
 
                 if status.companys_to_capture > 0:
                     await page.evaluate('getGrupoPropostas();')
@@ -141,7 +151,7 @@ async def custom_route_handler(route, json_captured, page, dados, status, pagina
     else:
         await route.continue_()
 
-async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
+async def fazer_requisicao(dados, browser, url, semaforo, grupos_itens=None, paginaCnetmobile=0):
     async with semaforo:
         json_captured = asyncio.Event()
 
@@ -157,6 +167,7 @@ async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
             qtdeItensDoGrupo = 0
             item_propostas = {}
             item_conteudo = {}
+            dicionario_de_itens = None
 
         status = Status()
 
@@ -171,7 +182,7 @@ async def fazer_requisicao(dados, browser, url, semaforo, paginaCnetmobile=0):
         # Defina a função para ser executada quando a página recarregar
         await page.expose_function('ping_block', lambda msg: on_block(msg, page, url))
         
-        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, page, dados, status, paginaCnetmobile))
+        await page.route("**/*", lambda route: custom_route_handler(route, json_captured, page, dados, status, grupos_itens, paginaCnetmobile))
         await page.goto(url)
         print(f'Iniciando a requisição: {url}')
 
@@ -188,9 +199,17 @@ def mount_urls(url_base, compra_numero, lista_itens):
     print(f"URLS A SEREM REQUISITADOS: {urls}")
     return(urls)
 
+async def fetch_data(url):
+    session = requests.Session()
+    try:
+        response = session.get(url)
+        return response.json()
+    finally:
+        session.close()
+
 async def main(dados, compra_numero):
     # Número máximo de requisições simultâneas
-    limite_simultaneo = 4
+    limite_simultaneo = 3
     semaforo = asyncio.Semaphore(limite_simultaneo)
     
     #compra_numero = linkSistemaOrigem.split("compra=")[1]
@@ -215,12 +234,29 @@ async def main(dados, compra_numero):
             else:
                 itensPageCnetmobile = [n + x for x in itensPageCnetmobile]
 
-        print(dados.itens, '\n')
-        
-        for item in dados.itens:
-            print('Item: ', item['numero'])
+        # for item in dados.itens:
+        #     print('Item: ', item['numero'])
         
         urls = mount_urls(url_base=url_base, compra_numero=compra_numero, lista_itens=dados.itens)
+
+        lista_grupos = []
+        for dicionario in dados.itens:
+            if dicionario['tipo'] == 'G':
+                lista_grupos.append(dicionario['numero'])
+
+        urls_itens_grupos = [f'https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-fase-externa/public/v1/compras/{compra_numero}/itens/{x}/itens-grupo?tamanhoPagina=10000&pagina=0' for x in lista_grupos]
+
+        tasks = [asyncio.ensure_future(fetch_data(url)) for url in urls_itens_grupos]
+
+        print('iniciando requisições')
+        results = await asyncio.gather(*tasks)
+
+        grupos_itens = {}
+        for grupo, result in zip(lista_grupos, results):
+            grupos_itens.update({grupo: result})
+
+        print('\n', grupos_itens)
+        #print(dados.itens, '\n')
 
         # Lista para armazenar tarefas de requisição
         tasks = []
@@ -228,7 +264,7 @@ async def main(dados, compra_numero):
         # Criar tarefas para cada requisição
         for url in urls:
             print(f'Adicionando task => {url}')
-            task = asyncio.ensure_future(fazer_requisicao(dados, browser, url, semaforo))
+            task = asyncio.ensure_future(fazer_requisicao(dados, browser, url, semaforo, grupos_itens))
             tasks.append(task)
 
         await asyncio.gather(*tasks)

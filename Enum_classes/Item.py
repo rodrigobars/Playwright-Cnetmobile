@@ -23,7 +23,8 @@ class Item:
             valorEstimado: Optional[float] = None,
             priorizarAbertura: Optional[bool] = None,
             quantidadeSolicitada: Optional[int] = None,
-            qtdeItensDoGrupo: Optional[int] = None
+            qtdeItensDoGrupo: Optional[int] = None,
+            dataHoraLimiteEtapaFaseRecursal: Optional = None
         ):
         self.numero = numero
         self.tipo = ItemEnum(name='tipo', value=tipo).to_str()
@@ -47,6 +48,7 @@ class Item:
         self.priorizarAbertura = sim_ou_nao(priorizarAbertura)
         self.julgHabEncerrada = sim_ou_nao(julgHabEncerrada)
         self.qtdeItensDoGrupo = qtdeItensDoGrupo
+        self.dataHoraLimiteEtapaFaseRecursal = dataHoraLimiteEtapaFaseRecursal
 
     def __str__(self):
         return str({var_name: getattr(self, var_name) for var_name in vars(self)})
