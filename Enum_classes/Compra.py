@@ -31,6 +31,7 @@ class Compra:
             emergencial: bool,
             objeto: str,
             julgamentoIniciado: bool,
+            ufUasg: Optional[str] = None,
             tipoEventoImpeditivoVigente: Optional[str] = None
         ):
         self.numeroUasg = numeroUasg

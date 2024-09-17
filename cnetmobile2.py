@@ -171,7 +171,7 @@ async def fazer_requisicao(dados, browser, url, semaforo, grupos_itens=None, pag
 
         status = Status()
 
-        context = await browser.new_context(viewport={"width": 1200, "height": 800})
+        context = await browser.new_context(viewport={"width": 1600, "height": 900})
         await context.add_init_script(path='preload.js')
         await context.add_init_script(path='groupGetter.js')
         page = await context.new_page()
