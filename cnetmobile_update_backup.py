@@ -139,10 +139,7 @@ def mount_urls(url_base, compra_numero, lista_itens):
 
 async def main(dados, lista_itens: list, compra_numero):
     # Número máximo de requisições simultâneas
-    #limite_simultaneo_inicial = 1
-    limite_simultaneo_inicial = 4
-    limite_simultaneo_aumentado = 4
-    semaforo = asyncio.Semaphore(limite_simultaneo_inicial)
+    semaforo = asyncio.Semaphore(1)
     
     #compra_numero = linkSistemaOrigem.split("compra=")[1]
     url_base = "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra"
@@ -208,22 +205,15 @@ async def main(dados, lista_itens: list, compra_numero):
 
         context = await browser.new_context(viewport={"width": 1200, "height": 800})
 
-        await context.set_extra_http_headers({'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'})
+        #await context.set_extra_http_headers({'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'})
 
         # Criar tarefas para cada requisição
         tasks = []
-        primeira_tarefa = True
         
         for url in urls:
             print(f'Adicionando task => {url}')
             task = asyncio.ensure_future(fazer_requisicao(dados, context, url, semaforo, groupItems, groupID))
             tasks.append(task)
-
-            # if primeira_tarefa:
-            #     await task  # Aguarda a conclusão da primeira tarefa
-            #     # Aumenta o semáforo para permitir mais requisições simultâneas
-            #     semaforo = asyncio.Semaphore(limite_simultaneo_aumentado)
-            #     primeira_tarefa = False
 
         await asyncio.gather(*tasks)
 
