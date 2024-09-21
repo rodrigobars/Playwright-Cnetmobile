@@ -3,7 +3,8 @@ import subprocess
 import asyncio
 
 async def start_chrome_with_debugging(executable_path, port):
-    command = f"{executable_path} --remote-debugging-port={port} --no-sandbox"
+    command = f'"{executable_path}" --remote-debugging-port={port} --no-sandbox'
+    print(command)
     #command = 'chrome-stable --remote-debugging-port={port} --no-sandbox'
     process = subprocess.Popen(command, shell=True)
     return process, port
@@ -37,8 +38,8 @@ async def main():
 
         try:
             chrome_process, port = await start_chrome_with_debugging(
-                executable_path=p.chromium.executable_path,
-                port=8000
+                executable_path='C:\Program Files\Google\Chrome\Application\chrome.exe',
+                port=9222
             )
 
             while True:

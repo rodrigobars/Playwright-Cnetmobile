@@ -138,8 +138,8 @@ def mount_urls(url_base, compra_numero, lista_itens):
 async def main(dados, lista_itens: list, compra_numero):
     # Número máximo de requisições simultâneas
     #limite_simultaneo_inicial = 1
-    limite_simultaneo_inicial = 4
-    limite_simultaneo_aumentado = 8
+    limite_simultaneo_inicial = 1
+    limite_simultaneo_aumentado = 1
     semaforo = asyncio.Semaphore(limite_simultaneo_inicial)
     
     #compra_numero = linkSistemaOrigem.split("compra=")[1]
