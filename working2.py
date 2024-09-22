@@ -30,6 +30,7 @@ def monitorar_trafego(url, chrome_process, port):
                 print('sem dados.')
 
     tab.start()
+    tab.call_method("Network.setUserAgentOverride", userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Gecko/20100101 Firefox/92.0")
     tab.call_method("Network.enable")
     tab.set_listener("Network.requestWillBeSent", request_will_be_sent)
     tab.set_listener("Network.responseReceived", response_received)
