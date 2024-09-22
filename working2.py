@@ -1,8 +1,17 @@
 import pychrome
 import time
+import subprocess
 
-def monitorar_trafego(url):
-    browser = pychrome.Browser(url="http://127.0.0.1:9222")
+def start_chrome_with_debugging(executable_path, port):
+    command = f'"{executable_path}" --remote-debugging-port={port}'
+    process = subprocess.Popen(command, shell=True)
+    return process, port
+
+def stop_chrome(process):
+    process.terminate()
+
+def monitorar_trafego(url, chrome_process, port):
+    browser = pychrome.Browser(url=f"http://127.0.0.1:{port}")
     tab = browser.new_tab()
 
     def request_will_be_sent(**kwargs):
@@ -30,7 +39,14 @@ def monitorar_trafego(url):
     time.sleep(10)
 
     tab.stop()
+    stop_chrome(chrome_process)
 
 if __name__ == "__main__":
     url_alvo = "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra/item/1?compra=15018205900332024"
-    monitorar_trafego(url_alvo)
+    
+    chrome_process, port = start_chrome_with_debugging(
+            executable_path='C:\Program Files\Google\Chrome\Application\chrome.exe',
+            port=9222
+        )
+    
+    monitorar_trafego(url_alvo, chrome_process, port)

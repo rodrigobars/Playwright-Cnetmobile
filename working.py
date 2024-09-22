@@ -14,7 +14,6 @@ def monitorar_trafego(url):
         print("Resposta:", kwargs)
         if 'response' in kwargs:
             request_id = kwargs['requestId']
-            # Recupera o corpo da resposta
             try:
                 body = tab.call_method("Network.getResponseBody", requestId=request_id)
                 print("\nCorpo da Resposta:", body.get('body'))
